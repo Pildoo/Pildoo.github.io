@@ -1,7 +1,7 @@
 cv:
   name: Pildoo Sung
   label: Assistant Professor of Sociology
-  email: pildoosung@gmail.com
+  email: pildoosung@hanyang.ac.kr
   location: Seoul, South Korea
   image: ""
   summary: Sociologist researching the complexity and dynamics of social relationships in later life, stress and well-being among family caregivers, and social capital in comparative perspective.
@@ -13,10 +13,30 @@ cv:
       username: zJTtOhYAAAAJ
 
   address:
+    street: "203 College of Social Sciences, 222 Wangsimni-ro, Seongdong-gu"
     city: Seoul
     countryCode: KR
 
   sections:
+    Academic Position:
+      - company: Hanyang University
+        position: Assistant Professor, Department of Sociology
+        location: Seoul, South Korea
+        start_date: 2024
+        end_date: present
+
+      - company: Hong Kong Baptist University
+        position: Assistant Professor, Department of Sociology
+        location: Hong Kong
+        start_date: 2023
+        end_date: 2024
+
+      - company: Duke-NUS Medical School
+        position: Research Fellow, Centre for Ageing Research and Education (CARE)
+        location: Singapore
+        start_date: 2020
+        end_date: 2023
+
     Education:
       - institution: National University of Singapore
         location: Singapore
@@ -25,21 +45,167 @@ cv:
         studyType: PhD
         end_date: 2020
 
-    Experience:
+      - institution: Korea University
+        location: Seoul, South Korea
+        area: Sociology
+        studyType: MA
+        end_date: 2014
+
+      - institution: Korea University
+        location: Seoul, South Korea
+        area: Sociology
+        studyType: BA
+        end_date: 2009
+
+    Research Interests:
+      - name: Research
+        keywords: "Social Capital, Social Participation, Social Isolation, Loneliness, Social Gerontology, Caregiving, Longitudinal Analysis"
+
+    Honors, Grants & Awards:
+      - title: HYU International Collaboration Grant (PI)
+        authors:
+          - Hanyang University
+        date: 2025
+        awarder: Hanyang University
+        summary: "2025–2026"
+
+      - title: Start-up Grant
+        authors:
+          - Hanyang University
+        date: 2024
+        awarder: Hanyang University
+
+      - title: Travel Award
+        authors:
+          - National University of Singapore
+        date: 2024
+        awarder: Department of Geography, National University of Singapore
+
+      - title: Start-up Grant
+        authors:
+          - Hong Kong Baptist University
+        date: 2023
+        awarder: Hong Kong Baptist University
+
+      - title: Travel Award
+        authors:
+          - Japanese Sociological Society
+        date: 2022
+        awarder: Japanese Sociological Society
+
+      - title: Research Scholarship
+        authors:
+          - National University of Singapore
+        date: 2015
+        awarder: Department of Sociology, National University of Singapore
+        summary: "2015–2019"
+
+      - title: The Best Article Award
+        authors:
+          - Korea University
+        date: 2015
+        awarder: Korea University Graduate Studies
+
+      - title: Research Scholarship
+        authors:
+          - Korea University
+        date: 2012
+        awarder: Korea University
+        summary: "2012–2014"
+
+    Teaching Experience:
       - company: Hanyang University
-        position: Assistant Professor of Sociology
+        position: Instructor
         location: Seoul, South Korea
         start_date: 2025
-        end_date: present
+        end_date: 2026
+        highlights:
+          - "Health and Social Behavior [SOC4046]"
+          - "Social Problems [SOC3032]"
+          - "Medical Sociology Seminar, Graduate [SOC9116]"
+          - "Social Networks and Social Capital, Graduate [SOC9115]"
+
+      - company: Hanyang University
+        position: Instructor
+        location: Seoul, South Korea
+        start_date: 2024
+        end_date: 2024
+        highlights:
+          - "Sociology and the New Industrial Revolution [SOC1055]"
+          - "Intermediate Social Statistics, Graduate [SOC9109]"
 
       - company: Hong Kong Baptist University
-        position: Assistant Professor of Sociology
+        position: Instructor
         location: Hong Kong
         start_date: 2023
         end_date: 2024
+        highlights:
+          - "Careers and Life Courses [SOCI3027]"
+          - "Globalization [SOCI4016]"
 
-      - company: Centre for Ageing Research and Education, Duke-NUS Medical School
-        position: Research Fellow
+      - company: Duke-NUS Medical School
+        position: "Instructor, Methods Workshop: Latent Class/Transition Analysis"
         location: Singapore
-        start_date: 2020
+        start_date: 2021
         end_date: 2023
+        summary: Delivered at the Centre for Ageing Research and Education (2021–2023); also invited to the Association of Pacific Rim Universities Population Aging Program and the Department of Sociology, Korea University (2022).
+
+      - company: National University of Singapore
+        position: Teaching Assistant
+        location: Singapore
+        start_date: 2015
+        end_date: 2018
+        highlights:
+          - "Data Analysis in Social Research [SC3209], 2018"
+          - "Sociology of Life Course and Ageing [SC3214], 2017"
+          - "Understanding Globalization [GEK1041], 2016"
+          - "Making Sense of Society [SC1101], 2015"
+
+    Professional Service:
+      - company: BMC Geriatrics
+        position: Editorial Board Member
+        start_date: 2024
+        end_date: present
+
+      - company: Korean Journal of Sociology
+        position: Editorial Board Member
+        start_date: 2024
+        end_date: present
+
+      - company: Journal of the Korean Gerontological Society
+        position: Editorial Board Member
+        start_date: 2023
+        end_date: 2024
+
+      - company: Health and Social Science
+        position: Editorial Board Member
+        start_date: 2023
+        end_date: 2024
+
+      - company: Hong Kong Baptist University
+        position: Grant Reviewer, Seed Grant Funding Scheme
+        start_date: 2023
+        end_date: 2023
+
+      - company: 19th Seoul International Symposium on Gerontology
+        position: Organizing Committee Member
+        start_date: 2025
+        end_date: 2025
+
+      - company: Population Association of Singapore Annual Meeting
+        position: Organizing Committee Member
+        start_date: 2023
+        end_date: 2023
+
+      - company: 12th Association of Pacific Rim University Population Ageing Conference
+        position: Organizing Committee Member
+        start_date: 2022
+        end_date: 2022
+
+    Journal Reviewer:
+      - name: Reviewer for
+        keywords: "Aging and Health Research, Australian & New Zealand Journal of Public Health, BMC Geriatrics, BMC Public Health, Dementia and Geriatric Cognitive Disorders, Health & Place, Health Psychology, Health and Social Science, International Journal of Comparative Sociology, Journal of Aging and Health, Journal of Applied Gerontology, Journal of the Korean Gerontological Society, Korea Journal of Population Studies, Korean Journal of Sociology, Scientific Reports, Social Science Research, Sociology of Health & Illness, The Gerontologist, The Journals of Gerontology Series B"
+
+    Professional Organization Membership:
+      - name: Member of
+        keywords: "Gerontological Society of America, Hong Kong Sociological Association, International Alliance of Research Universities Aging Longevity and Health Early Career Researcher Network, International Sociological Association (RC55 Social Indicators), Korean Gerontological Association, Korean Sociological Association, Population Association of Singapore"
