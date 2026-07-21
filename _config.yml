@@ -15,6 +15,15 @@ footer_text: >
 keywords: sociology, social capital, trust, health, well-being, social networks, aging, family caregiving, Hanyang University # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🎓 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+logo: /assets/img/pildoo-profile-natural-20260721.png
+
+social:
+  name: Pildoo Sung
+  links:
+    - https://github.com/Pildoo
+    - https://orcid.org/0000-0002-5730-6241
+    - https://scholar.google.com/citations?user=zJTtOhYAAAAJ
+    - https://socio.hanyang.ac.kr/home
 
 url: https://pildoo.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root

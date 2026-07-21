@@ -9,12 +9,26 @@ description: Courses and workshops taught in sociology, health, and social resea
 
 I teach courses that connect sociological theory and empirical research with questions about health, aging, social relationships, and inequality.
 
+<style>
+  .teaching-syllabus-link {
+    color: #1f5f99;
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-thickness: 0.08em;
+    text-underline-offset: 0.15em;
+  }
+
+  .teaching-syllabus-link:hover {
+    color: #0f3f6b;
+  }
+</style>
+
 ## Hanyang University
 
 ### 2025–2026
 
-- [**Health and Social Behavior**](/assets/pdf/teaching/Health_and_Social_Behavior_2026.pdf) (SOC4046)
-- [**Social Problems**](/assets/pdf/teaching/Analysis_of_Social_Problems_2025.pdf) (SOC3032)
+- <a class="teaching-syllabus-link" href="/assets/pdf/teaching/Health_and_Social_Behavior_2026.pdf">Health and Social Behavior</a> (SOC4046)
+- <a class="teaching-syllabus-link" href="/assets/pdf/teaching/Analysis_of_Social_Problems_2025.pdf">Social Problems</a> (SOC3032)
 - **Medical Sociology Seminar** (Graduate, SOC9116)
 - **Social Networks and Social Capital** (Graduate, SOC9115)
 
