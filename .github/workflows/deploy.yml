@@ -55,6 +55,15 @@ on:
       - "!docs/FAQ.md"
       - "!docs/INSTALL.md"
       - "!README.md"
+  # Re-deploy after the CV PDF is (re)built and committed to main. That commit
+  # is made with the default GITHUB_TOKEN, which does not itself trigger the
+  # push event above, so without this the published PDF lags one build behind.
+  workflow_run:
+    workflows: ["Build CV from LaTeX"]
+    types:
+      - completed
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -62,6 +71,9 @@ permissions:
 
 jobs:
   deploy:
+    # For a workflow_run trigger, only deploy when the CV build succeeded;
+    # push / pull_request / workflow_dispatch always proceed.
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
