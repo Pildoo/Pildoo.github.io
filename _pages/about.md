@@ -13,14 +13,15 @@ latest_posts:
   enabled: false
 ---
 
-I am a sociologist studying how social relationships shape health, well-being, and participation across the life course. My work focuses especially on later life, family caregiving, and the social conditions that help people remain connected.
+I am a sociologist studying how social relationships, health, and family processes shape well-being across the life course. My current work brings together social gerontology, medical sociology, social network analysis, and longitudinal methods.
 
-My research brings together social gerontology, medical sociology, social network analysis, and longitudinal methods. Current interests include:
+## Current research
 
-- social capital, social participation, and social isolation;
-- loneliness, mental health, and social relationships in later life; and
-- caregiving, health, and well-being in families.
+- **Social capital, trust, and social health.** I use ISSP and other comparative survey data to examine how trust, close ties, and social resources are associated with health, participation, and life satisfaction. **Main finding:** across countries, generalized trust is associated with social networks - especially weak ties - while both strong and weak ties are linked to access to social resources.
+- **Oral health and social engagement.** I study how oral health-related quality of life is connected to formal social engagement and depressive symptoms, including gender differences. **Main finding:** oral health and depressive symptoms are reciprocal, but depressive symptoms have the stronger effect; formal social engagement partly explains the pathway from oral health to depressive symptoms.
+- **Network trajectories and later-life health.** I examine how older adults move between social network and social isolation profiles, including changes after widowhood. **Main finding:** more than half of older adults changed isolation profile over time; socioeconomic disadvantage predicted movement toward less supportive ties, while rising depressive symptoms predicted persistence in or transition into loneliness.
+- **Family caregiving and sandwich-generation families.** I study caregiver burden, task sharing, intergenerational transfers, and the social resources available to families caring across generations. **Main finding:** caregiver loneliness - more than care-recipient loneliness in one dyadic study - is closely tied to caregiver burden, while network resources, resilience, and shared care work can shape well-being.
 
 I am an Assistant Professor in the [Department of Sociology at Hanyang University](https://socio.hanyang.ac.kr/home). Previously, I was an Assistant Professor at [Hong Kong Baptist University](https://socweb.hkbu.edu.hk/) and a Research Fellow at the [Centre for Ageing Research and Education, Duke-NUS Medical School](https://www.duke-nus.edu.sg/care). I received my Ph.D. in Sociology from the [National University of Singapore](https://fass.nus.edu.sg/socanth/).
 
-For a quick overview, see my [research interests](/research/), [publications](/publications/), [teaching](/teaching/), or [CV](/cv/).
+For a fuller overview, see my [research page](/research/), [publications](/publications/), [teaching](/teaching/), or [CV](/cv/).
