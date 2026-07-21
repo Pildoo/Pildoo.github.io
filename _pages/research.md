@@ -58,7 +58,7 @@ My research examines how social relationships shape health and well-being in lat
 ## Current research: sociocentric network analysis
 
 <figure class="research-figure">
-  <img src="{{ '/assets/img/research/sociocentric-network.svg' | relative_url }}" alt="Coefficient plot comparing sent ties and nominations received as predictors of later loneliness">
+  <img src="{{ '/assets/img/research/sociocentric-network.svg' | relative_url }}?v=20260722-2" alt="Coefficient plot comparing sent ties and nominations received as predictors of later loneliness">
   <figcaption>Ongoing analysis: received non-kin nominations were associated with lower later loneliness.</figcaption>
 </figure>
 
@@ -79,7 +79,7 @@ The current projects build on four lines of published research.
 ### Social network typology
 
 <figure class="research-figure research-figure-left">
-  <img src="{{ '/assets/img/research/network-typology.svg' | relative_url }}" alt="Change in the prevalence of five social isolation profiles between two survey waves">
+  <img src="{{ '/assets/img/research/network-typology.svg' | relative_url }}?v=20260722-2" alt="Change in the prevalence of five social isolation profiles between two survey waves">
   <figcaption>Profile prevalence shifted across waves; the less-supportive but less-lonely profile grew from 31.1% to 41.4%.</figcaption>
 </figure>
 
@@ -93,7 +93,7 @@ Newly accepted work asks a complementary question: whether loneliness also depen
 ### Formal and informal social engagement and health
 
 <figure class="research-figure">
-  <img src="{{ '/assets/img/research/engagement-health.svg' | relative_url }}" alt="Two-wave model connecting oral health, social engagement, and depressive symptoms">
+  <img src="{{ '/assets/img/research/engagement-health.svg' | relative_url }}?v=20260722-2" alt="Two-wave model connecting oral health, social engagement, and depressive symptoms">
   <figcaption>Two-wave results link better oral health to greater engagement and engagement to fewer depressive symptoms.</figcaption>
 </figure>
 
@@ -106,7 +106,7 @@ This line traces reciprocal relationships between social engagement and later-li
 ### Family caregiving
 
 <figure class="research-figure research-figure-left">
-  <img src="{{ '/assets/img/research/family-caregiving.svg' | relative_url }}" alt="Three caregiver and care-recipient dyadic loneliness profiles">
+  <img src="{{ '/assets/img/research/family-caregiving.svg' | relative_url }}?v=20260722-2" alt="Three caregiver and care-recipient dyadic loneliness profiles">
   <figcaption>Three dyadic profiles show that caregiver and care-recipient loneliness can diverge.</figcaption>
 </figure>
 
@@ -119,7 +119,7 @@ Studies of families caring for older adults with cognitive impairment show that 
 ### Trust and social capital
 
 <figure class="research-figure">
-  <img src="{{ '/assets/img/research/trust-social-capital.svg' | relative_url }}" alt="Integrative model connecting generalized trust, strong and weak ties, and social resources across 30 countries">
+  <img src="{{ '/assets/img/research/trust-social-capital.svg' | relative_url }}?v=20260722-2" alt="Integrative model connecting generalized trust, strong and weak ties, and social resources across 30 countries">
   <figcaption>Across 30 countries, trust, social ties, and the resources carried by those ties form a linked process.</figcaption>
 </figure>
 
