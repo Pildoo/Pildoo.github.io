@@ -9,6 +9,22 @@ description: Courses and workshops taught in sociology, health, and social resea
 
 I teach courses that connect sociological theory and empirical research with questions about health, aging, social relationships, and inequality.
 
+<style>
+  /* Scoped to the teaching page: compact institution (h2) and year (h3) headings */
+  .post h2 {
+    font-size: 1.3rem;
+    margin-top: 1.8rem;
+  }
+
+  .post h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1.1rem;
+    margin-bottom: 0.4rem;
+    opacity: 0.75;
+  }
+</style>
+
 ## Hanyang University
 
 ### 2025–2026
