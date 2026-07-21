@@ -1,35 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
-  <title id="title">Social network typology and transitions</title>
-  <desc id="desc">Three stylized network profiles connect through transition arrows to later-life outcomes.</desc>
-  <rect width="640" height="360" rx="22" fill="#f7fafc"/>
-  <text x="32" y="38" fill="#0b5394" font-family="Arial, sans-serif" font-size="19" font-weight="700">Network types can change</text>
-  <text x="32" y="62" fill="#587084" font-family="Arial, sans-serif" font-size="13">classification, transition, consequence</text>
-  <g font-family="Arial, sans-serif">
-    <g transform="translate(32 92)">
-      <rect width="166" height="112" rx="14" fill="#ffffff" stroke="#b9cedd"/>
-      <text x="14" y="24" fill="#334e5f" font-size="13" font-weight="700">Locally embedded</text>
-      <g stroke="#0b5394" stroke-width="2"><path d="M44 57 L76 38 L110 61 L78 84 Z"/><path d="M44 57 L78 84"/><path d="M76 38 L110 61"/></g>
-      <g fill="#0b5394"><circle cx="44" cy="57" r="6"/><circle cx="76" cy="38" r="6"/><circle cx="110" cy="61" r="6"/><circle cx="78" cy="84" r="6"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 460" role="img" aria-labelledby="title desc">
+  <title id="title">Changes in five social isolation profiles</title>
+  <desc id="desc">A dumbbell chart compares the prevalence of five social isolation profiles at baseline and follow-up. The less-supportive but less-lonely profile increases most, from 31.1 to 41.4 percent.</desc>
+  <rect width="720" height="460" rx="22" fill="#f7fafc"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="30" y="38" fill="#0b5394" font-size="24" font-weight="700">Social isolation profiles shift over time</text>
+    <text x="30" y="64" fill="#587084" font-size="14">Five profiles in a Singapore panel, 2016-17 to 2019</text>
+
+    <g font-size="12">
+      <circle cx="470" cy="83" r="6" fill="#ffffff" stroke="#c96745" stroke-width="3"/><text x="482" y="88" fill="#587084">baseline</text>
+      <circle cx="558" cy="83" r="6" fill="#2f8a73"/><text x="570" y="88" fill="#587084">follow-up</text>
     </g>
-    <g transform="translate(237 92)">
-      <rect width="166" height="112" rx="14" fill="#ffffff" stroke="#b9cedd"/>
-      <text x="14" y="24" fill="#334e5f" font-size="13" font-weight="700">Family-focused</text>
-      <g stroke="#0b5394" stroke-width="2"><path d="M83 57 L45 38 M83 57 L122 38 M83 57 L45 82 M83 57 L122 82"/></g>
-      <g fill="#0b5394"><circle cx="83" cy="57" r="7"/><circle cx="45" cy="38" r="6"/><circle cx="122" cy="38" r="6"/><circle cx="45" cy="82" r="6"/><circle cx="122" cy="82" r="6"/></g>
+
+    <g stroke="#d5e0e8" stroke-width="1">
+      <line x1="250" y1="104" x2="250" y2="386"/><line x1="341" y1="104" x2="341" y2="386"/>
+      <line x1="432" y1="104" x2="432" y2="386"/><line x1="523" y1="104" x2="523" y2="386"/>
+      <line x1="614" y1="104" x2="614" y2="386"/><line x1="660" y1="104" x2="660" y2="386"/>
     </g>
-    <g transform="translate(442 92)">
-      <rect width="166" height="112" rx="14" fill="#ffffff" stroke="#b9cedd"/>
-      <text x="14" y="24" fill="#334e5f" font-size="13" font-weight="700">Isolated</text>
-      <g fill="#0b5394"><circle cx="48" cy="60" r="7"/><circle cx="83" cy="60" r="7"/><circle cx="118" cy="60" r="7"/></g>
-      <g fill="none" stroke="#c8d9e5" stroke-width="2"><circle cx="48" cy="60" r="17"/><circle cx="83" cy="60" r="17"/><circle cx="118" cy="60" r="17"/></g>
+    <g fill="#6d8290" font-size="11" text-anchor="middle">
+      <text x="250" y="102">0%</text><text x="341" y="102">10%</text><text x="432" y="102">20%</text>
+      <text x="523" y="102">30%</text><text x="614" y="102">40%</text><text x="660" y="102">45%</text>
     </g>
-    <g fill="none" stroke="#0b5394" stroke-width="2" marker-end="url(#arrow)">
-      <path d="M198 148 H229"/><path d="M403 148 H434"/>
+
+    <rect x="20" y="277" width="674" height="58" rx="11" fill="#e7f2ef"/>
+    <g fill="#334e5f" font-size="14">
+      <text x="30" y="134"><tspan x="30">Diverse ties and support,</tspan><tspan x="30" dy="17">less lonely</tspan></text>
+      <text x="30" y="191"><tspan x="30">Relative ties and support,</tspan><tspan x="30" dy="17">less lonely</tspan></text>
+      <text x="30" y="248"><tspan x="30">Friend ties and support,</tspan><tspan x="30" dy="17">less lonely</tspan></text>
+      <text x="30" y="305" fill="#176b5b" font-weight="700"><tspan x="30">Less supportive ties,</tspan><tspan x="30" dy="17">less lonely</tspan></text>
+      <text x="30" y="362"><tspan x="30">Less supportive ties,</tspan><tspan x="30" dy="17">lonely</tspan></text>
     </g>
-    <g fill="#587084" font-size="12" text-anchor="middle"><text x="214" y="137">transition</text><text x="419" y="137">transition</text></g>
-    <rect x="86" y="255" width="468" height="56" rx="14" fill="#eaf2f8"/>
-    <text x="320" y="278" text-anchor="middle" fill="#0b5394" font-size="13" font-weight="700">widowhood · pandemic · ordinary time</text>
-    <text x="320" y="298" text-anchor="middle" fill="#334e5f" font-size="12">depression · loneliness · all-cause mortality</text>
+
+    <g stroke="#90a7b6" stroke-width="4" stroke-linecap="round">
+      <line x1="472" y1="143" x2="460" y2="143"/>
+      <line x1="485" y1="200" x2="429" y2="200"/>
+      <line x1="335" y1="257" x2="306" y2="257"/>
+      <line x1="533" y1="314" x2="627" y2="314" stroke="#2f8a73" stroke-width="6"/>
+      <line x1="336" y1="371" x2="338" y2="371"/>
+    </g>
+    <g fill="#ffffff" stroke="#c96745" stroke-width="3">
+      <circle cx="472" cy="143" r="7"/><circle cx="485" cy="200" r="7"/><circle cx="335" cy="257" r="7"/>
+      <circle cx="533" cy="314" r="7"/><circle cx="336" cy="371" r="7"/>
+    </g>
+    <g fill="#2f8a73">
+      <circle cx="460" cy="143" r="8"/><circle cx="429" cy="200" r="8"/><circle cx="306" cy="257" r="8"/>
+      <circle cx="627" cy="314" r="9"/><circle cx="338" cy="371" r="8"/>
+    </g>
+    <g fill="#334e5f" font-size="11" text-anchor="middle">
+      <text x="472" y="127">24.4</text><text x="460" y="164">23.1</text>
+      <text x="485" y="184">25.8</text><text x="429" y="221">19.6</text>
+      <text x="335" y="241">9.3</text><text x="306" y="278">6.1</text>
+      <text x="533" y="298">31.1</text><text x="627" y="299" fill="#176b5b" font-weight="700">41.4</text>
+      <text x="336" y="355">9.4</text><text x="338" y="392">9.7</text>
+    </g>
+
+    <rect x="30" y="412" width="660" height="30" rx="15" fill="#0b5394"/>
+    <text x="360" y="432" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="700">Largest shift: less supportive but less lonely, +10.3 percentage points</text>
   </g>
-  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#0b5394"/></marker></defs>
 </svg>

@@ -9,9 +9,9 @@ description: Sociocentric network analysis of aging communities, building on res
 
 <style>
   .research-figure {
-    width: min(38%, 340px);
-    margin: 0.35rem 0 1.25rem 2rem;
-    padding: 0.75rem;
+    width: min(46%, 440px);
+    margin: 0.25rem 0 1.4rem 2.1rem;
+    padding: 0.65rem;
     float: right;
     border: 1px solid rgba(11, 83, 148, 0.16);
     border-radius: 0.8rem;
@@ -28,6 +28,7 @@ description: Sociocentric network analysis of aging communities, building on res
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 0.55rem;
   }
 
   .research-figure figcaption {
@@ -57,8 +58,8 @@ My research examines how social relationships shape health and well-being in lat
 ## Current research: sociocentric network analysis
 
 <figure class="research-figure">
-  <img src="{{ '/assets/img/research/sociocentric-network.svg' | relative_url }}" alt="A complete sociocentric network showing sent ties and nominations received">
-  <figcaption>Complete community networks make sent and received ties visible.</figcaption>
+  <img src="{{ '/assets/img/research/sociocentric-network.svg' | relative_url }}" alt="Coefficient plot comparing sent ties and nominations received as predictors of later loneliness">
+  <figcaption>Ongoing analysis: received non-kin nominations were associated with lower later loneliness.</figcaption>
 </figure>
 
 My current projects use complete—sociocentric—network data, which repeatedly enumerate who names whom among the older residents of rural Korean townships. Because everyone in the community is observed, these data can separate the ties people report from the nominations they receive—something egocentric surveys cannot do. Ongoing studies ask:
@@ -78,8 +79,8 @@ The current projects build on four lines of published research.
 ### Social network typology
 
 <figure class="research-figure research-figure-left">
-  <img src="{{ '/assets/img/research/network-typology.svg' | relative_url }}" alt="Three social network profiles connected by transition arrows and later-life outcomes">
-  <figcaption>Network profiles are classified first, then followed across transitions and outcomes.</figcaption>
+  <img src="{{ '/assets/img/research/network-typology.svg' | relative_url }}" alt="Change in the prevalence of five social isolation profiles between two survey waves">
+  <figcaption>Profile prevalence shifted across waves; the less-supportive but less-lonely profile grew from 31.1% to 41.4%.</figcaption>
 </figure>
 
 Using latent class and latent transition analysis, I classify older adults' networks into types and follow how people move between them—after widowhood, during the pandemic, and over ordinary time—with consequences ranging from depressive symptoms to all-cause mortality.
@@ -92,8 +93,8 @@ Newly accepted work asks a complementary question: whether loneliness also depen
 ### Formal and informal social engagement and health
 
 <figure class="research-figure">
-  <img src="{{ '/assets/img/research/engagement-health.svg' | relative_url }}" alt="Formal and informal engagement connected in both directions with later-life health outcomes">
-  <figcaption>Engagement and health are treated as processes that shape one another.</figcaption>
+  <img src="{{ '/assets/img/research/engagement-health.svg' | relative_url }}" alt="Two-wave model connecting oral health, social engagement, and depressive symptoms">
+  <figcaption>Two-wave results link better oral health to greater engagement and engagement to fewer depressive symptoms.</figcaption>
 </figure>
 
 This line traces reciprocal relationships between social engagement and later-life health—cognitive function, depressive symptoms, handgrip strength, and oral health—treating engagement and health as processes that continually shape each other. Recent work in this line maps patterns of multimorbidity among older Koreans living alone and links them to healthcare use and unmet needs.
@@ -105,8 +106,8 @@ This line traces reciprocal relationships between social engagement and later-li
 ### Family caregiving
 
 <figure class="research-figure research-figure-left">
-  <img src="{{ '/assets/img/research/family-caregiving.svg' | relative_url }}" alt="A care recipient connected to several family caregivers sharing care tasks">
-  <figcaption>Caregiving is organized through family ties, task-sharing, and caregiver resources.</figcaption>
+  <img src="{{ '/assets/img/research/family-caregiving.svg' | relative_url }}" alt="Three caregiver and care-recipient dyadic loneliness profiles">
+  <figcaption>Three dyadic profiles show that caregiver and care-recipient loneliness can diverge.</figcaption>
 </figure>
 
 Studies of families caring for older adults with cognitive impairment show that caregiver well-being depends on more than the amount of care provided: the caregiver's own loneliness, how tasks are shared across the family, and personal mastery and resilience all shape the experience of caregiving.
@@ -118,8 +119,8 @@ Studies of families caring for older adults with cognitive impairment show that 
 ### Trust and social capital
 
 <figure class="research-figure">
-  <img src="{{ '/assets/img/research/trust-social-capital.svg' | relative_url }}" alt="Two social network clusters connected by weak bridging ties">
-  <figcaption>Weak ties connect otherwise separate groups and carry social resources.</figcaption>
+  <img src="{{ '/assets/img/research/trust-social-capital.svg' | relative_url }}" alt="Integrative model connecting generalized trust, strong and weak ties, and social resources across 30 countries">
+  <figcaption>Across 30 countries, trust, social ties, and the resources carried by those ties form a linked process.</figcaption>
 </figure>
 
 Cross-national work with surveys such as the ISSP examines how generalized trust relates to social networks—especially weak ties—and to the resources those networks carry, alongside comparative research on in-group trust and health in East Asia.

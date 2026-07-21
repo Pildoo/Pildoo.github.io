@@ -1,31 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
-  <title id="title">Complete sociocentric network</title>
-  <desc id="desc">Older residents are shown as nodes in a complete community network. Directed lines distinguish ties people send from nominations they receive.</desc>
-  <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#0b5394"/></marker>
-    <marker id="arrow-muted" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#9bb8cf"/></marker>
-  </defs>
-  <rect width="640" height="360" rx="22" fill="#f7fafc"/>
-  <text x="32" y="38" fill="#0b5394" font-family="Arial, sans-serif" font-size="19" font-weight="700">One community, everyone observed</text>
-  <text x="32" y="62" fill="#587084" font-family="Arial, sans-serif" font-size="13">sent ties and received nominations</text>
-  <g stroke="#c8d9e5" stroke-width="2" fill="none" marker-end="url(#arrow-muted)">
-    <path d="M120 156 C180 90 230 91 286 133"/><path d="M286 133 C348 93 424 105 472 150"/>
-    <path d="M472 150 C526 187 509 257 448 279"/><path d="M448 279 C376 322 304 299 270 253"/>
-    <path d="M270 253 C210 289 148 270 120 220"/><path d="M120 220 C88 196 90 175 120 156"/>
-  </g>
-  <g stroke="#0b5394" stroke-width="3" fill="none" marker-end="url(#arrow)">
-    <path d="M120 156 C170 180 207 189 250 183"/><path d="M250 183 C300 138 346 137 388 163"/>
-    <path d="M388 163 C418 194 428 222 413 260"/><path d="M413 260 C366 255 324 238 270 253"/>
-    <path d="M270 253 C229 237 194 221 164 202"/>
-  </g>
-  <g fill="#ffffff" stroke="#0b5394" stroke-width="3">
-    <circle cx="120" cy="156" r="14"/><circle cx="286" cy="133" r="14"/><circle cx="472" cy="150" r="14"/>
-    <circle cx="448" cy="279" r="14"/><circle cx="270" cy="253" r="14"/><circle cx="120" cy="220" r="14"/>
-    <circle cx="250" cy="183" r="16" fill="#0b5394"/>
-  </g>
-  <text x="250" y="188" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10" font-weight="700">ego</text>
-  <g font-family="Arial, sans-serif" font-size="12">
-    <line x1="40" y1="313" x2="75" y2="313" stroke="#0b5394" stroke-width="3" marker-end="url(#arrow)"/><text x="84" y="317" fill="#334e5f">ties named</text>
-    <line x1="202" y1="313" x2="237" y2="313" stroke="#9bb8cf" stroke-width="2" marker-end="url(#arrow-muted)"/><text x="246" y="317" fill="#334e5f">nominations received</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img" aria-labelledby="title desc">
+  <title id="title">Directed network ties and later loneliness</title>
+  <desc id="desc">A coefficient plot shows that received nominations, particularly those received from non-kin, are associated with lower later loneliness, while sent ties are not.</desc>
+  <rect width="720" height="440" rx="22" fill="#f7fafc"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="30" y="38" fill="#0b5394" font-size="24" font-weight="700">Where the association is detectable</text>
+    <text x="30" y="64" fill="#587084" font-size="14">Lagged models of later loneliness, adjusted for baseline loneliness (N = 668)</text>
+
+    <rect x="24" y="266" width="660" height="56" rx="11" fill="#e7f2ef"/>
+    <g stroke="#d5e0e8" stroke-width="1">
+      <line x1="230" y1="98" x2="230" y2="330"/>
+      <line x1="302" y1="98" x2="302" y2="330"/>
+      <line x1="373" y1="98" x2="373" y2="330"/>
+      <line x1="445" y1="98" x2="445" y2="330"/>
+      <line x1="588" y1="98" x2="588" y2="330"/>
+      <line x1="660" y1="98" x2="660" y2="330"/>
+    </g>
+    <line x1="517" y1="92" x2="517" y2="330" stroke="#526978" stroke-width="2" stroke-dasharray="7 6"/>
+
+    <g fill="#334e5f" font-size="15">
+      <text x="34" y="126">Sent ties</text>
+      <text x="34" y="146" fill="#6d8290" font-size="12">outgoing degree</text>
+      <text x="34" y="190">Received ties</text>
+      <text x="34" y="210" fill="#6d8290" font-size="12">incoming degree</text>
+      <text x="34" y="254">Received from kin</text>
+      <text x="34" y="294" fill="#176b5b" font-weight="700">Received from non-kin</text>
+      <text x="34" y="313" fill="#4f766e" font-size="12">community recognition</text>
+    </g>
+
+    <g stroke-linecap="round">
+      <g stroke="#6689a2" stroke-width="3" fill="#6689a2">
+        <line x1="393" y1="137" x2="536" y2="137"/><line x1="393" y1="131" x2="393" y2="143"/><line x1="536" y1="131" x2="536" y2="143"/><circle cx="464" cy="137" r="7"/>
+        <line x1="297" y1="201" x2="462" y2="201"/><line x1="297" y1="195" x2="297" y2="207"/><line x1="462" y1="195" x2="462" y2="207"/><circle cx="379" cy="201" r="7"/>
+      </g>
+      <g stroke="#82a69e" stroke-width="3" fill="#82a69e">
+        <line x1="288" y1="246" x2="625" y2="246"/><line x1="288" y1="240" x2="288" y2="252"/><line x1="625" y1="240" x2="625" y2="252"/><circle cx="457" cy="246" r="7"/>
+      </g>
+      <g stroke="#176b5b" stroke-width="4" fill="#176b5b">
+        <line x1="266" y1="293" x2="445" y2="293"/><line x1="266" y1="286" x2="266" y2="300"/><line x1="445" y1="286" x2="445" y2="300"/><circle cx="355" cy="293" r="9"/>
+      </g>
+    </g>
+
+    <g fill="#587084" font-size="12" text-anchor="middle">
+      <text x="230" y="350">-0.4</text><text x="302" y="350">-0.3</text><text x="373" y="350">-0.2</text>
+      <text x="445" y="350">-0.1</text><text x="517" y="350">0</text><text x="588" y="350">0.1</text><text x="660" y="350">0.2</text>
+    </g>
+    <text x="660" y="374" text-anchor="end" fill="#334e5f" font-size="13">Coefficient (95% confidence interval)</text>
+    <text x="230" y="374" fill="#176b5b" font-size="12" font-weight="700">lower later loneliness</text>
+
+    <rect x="28" y="393" width="664" height="30" rx="15" fill="#0b5394"/>
+    <text x="360" y="413" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="700">Being named by non-kin was the most robust prospective association</text>
   </g>
 </svg>
