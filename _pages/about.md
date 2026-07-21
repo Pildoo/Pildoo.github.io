@@ -241,7 +241,7 @@ selected_papers: true
     <h2>About Me</h2>
     <div class="pildoo-content">
       <p>
-        I am a sociologist studying how social relationships, health, and family processes shape well-being across the life course. My work brings
+        I am a sociologist studying how social relationships and family processes shape health and well-being across the life course. My work brings
         together social gerontology, medical sociology, social network analysis, and longitudinal methods, drawing on national panel studies of older
         adults in South Korea and Singapore as well as cross-national surveys such as the ISSP.
       </p>

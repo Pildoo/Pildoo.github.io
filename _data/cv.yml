@@ -394,17 +394,14 @@ cv:
         doi: 10.25722/kfgy-nb7
 
     Work in Progress:
-      - name: Associating Multimorbidity Patterns with Healthcare Utilization and Unmet Healthcare Needs among Older Koreans Living Alone
-        summary: "Yun, H., Son, B., & Sung, P. — Status: Under review."
-
-      - name: "Lonely by Comparison: Understanding Loneliness Through Network Alter Status, Ego Status, and Regional Status"
-        summary: "Sung, P., Sung, W., & Kim, H. — Status: Under review."
-
       - name: Stability and Transitions in Social Network Types in the Pandemic Outbreak and Their Association with Mid-pandemic Depression among Older Koreans
         summary: "Sung, P., & Son, J. — Status: Under review."
 
-      - name: "The Strength of Strong Ties: Resources in Close Relationships and Life Satisfaction Across 30 Countries"
-        summary: "Sung, P., & Son, J. — Status: Draft available."
+      - name: "Strong-Tie Social Capital and Life Satisfaction Across 30 Countries: The Moderating Roles of Individual Income, National Affluence, and Income Inequality"
+        summary: "Sung, P., & Son, J. — Status: Under review."
+
+      - name: "Later-life Work Transitions and Trajectories of Depressive Symptoms: The Positive Role of Returning to Work"
+        summary: "Lim-Soh, J., Xiang, C. H., Ang, S., Sung, P., & Malhotra, R. — Status: Under review."
 
       - name: "Drifting into Isolation or Growing as a Hub?: Joint Trajectories of In-Degree and Out-Degree Centrality and Cognitive Resilience among Older Adults"
         summary: "Sung, P., & Youm, Y. — Status: Draft available."
@@ -412,8 +409,11 @@ cv:
       - name: "Adherence Trajectories and Determinants of Adherence Transition Patterns from Active Intervention to Self-Maintenance Phases of an Exercise-based Falls Prevention Programme"
         summary: "Koh, V. J. W., Sung, P., Tan, K. Y., Lee, J. M.-L., & Chan, A. — Status: Draft available."
 
-      - name: "Post-retirement Trajectories of Depressive Symptoms in South Korea: The Positive Role of Returning to Work"
-        summary: "Lim-Soh, J., Xiang, C. H., Ang, S., Sung, P., & Malhotra, R. — Status: Draft available."
+      - name: Long-Term Configurations of Social Engagement and Later Mental and Cognitive Health Among Middle-Aged and Older Korean Adults
+        summary: "Sung, P. — Status: Draft available."
+
+      - name: "Neighborhood Social Capital, Family Social Capital, and Health: Within-Person Dynamics in Public Rental Housing"
+        summary: "Kim, H., & Sung, P. — Status: Draft available."
 
     Conference Presentations:
       - name: "Oral Health-Related Quality of Life and Formal Social Engagement Among Older Adults: How Does Gender Matter?"
