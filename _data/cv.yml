@@ -62,7 +62,6 @@ cv:
           - A. Chan
         journal: Geriatrics & Gerontology International
         date: 2026
-        summary: Accepted
         doi: 10.1111/ggi.70499
 
       - title: "Oral Health-Related Quality of Life and Social Engagement: Gender Differences"
@@ -73,7 +72,7 @@ cv:
           - S. H. Kang
         journal: Journal of Dental Research
         date: 2026
-        summary: Accepted
+        summary: Online first
         doi: 10.1177/00220345261438375
 
       - title: Who Keeps on Learning? Understanding Heterogeneity in Resource Profiles of Older Learners to Promote Recurrent Engagement in Learning
@@ -86,13 +85,12 @@ cv:
         date: 2026
         summary: Accepted
 
-      - title: Stability and Change in Social Network Profiles After Widowhood and Their Implications for Depressive Symptoms Among Older Adults in South Korea
+      - title: Stability and Changes in Social Network Profiles After Widowhood and Their Implications for Depressive Symptoms Among Older Adults in South Korea
         authors:
           - "*Pildoo Sung*"
           - J. Lim-Soh
         journal: Population, Space and Place
         date: 2026
-        summary: Accepted
         doi: 10.1002/psp.70231
 
       - title: "Getting Lonely and Isolated? Transitions in Social Isolation Profiles Over Time and Factors Associated with Them Among Older Adults"
@@ -102,8 +100,16 @@ cv:
           - A. Visaria
           - J. M.-L. Lee
         journal: Social Networks
-        date: 2025
+        date: 2026
         doi: 10.1016/j.socnet.2025.12.005
+
+      - title: "Functional Limitations and Depressive Symptoms among Older Adults in Korea: Gender Differences in the Moderating Roles of Relationship Satisfaction with Family, Friends, and Neighbors"
+        authors:
+          - J. Y. Choi
+          - "*Pildoo Sung*"
+        journal: Journal of Aging and Health
+        date: 2026
+        doi: 10.1177/08982643241304884
 
       - title: Stress, Social Isolation Profiles, and Depressive Symptoms Among Older Adults in a Low-Income Community in Singapore
         authors:
@@ -123,7 +129,7 @@ cv:
         date: 2025
         doi: 10.1002/gps.70085
 
-      - title: "Sharing in Caring: Family Caregiving Task Sharing Patterns for Older Adults in Singapore"
+      - title: "Sharing in Caring: Family Caregiving Task-Sharing Patterns for Older Adults in Singapore"
         authors:
           - J. Lim-Soh
           - "*Pildoo Sung*"
@@ -133,22 +139,6 @@ cv:
         date: 2025
         doi: 10.1093/geronb/gbae186
 
-      - title: "Functional Limitations and Depressive Symptoms among Older Adults in Korea: Gender Differences in the Moderating Roles of Relationship Satisfaction with Family, Friends, and Neighbors"
-        authors:
-          - J. Y. Choi
-          - "*Pildoo Sung*"
-        journal: Journal of Aging and Health
-        date: 2024
-        doi: 10.1177/08982643241304884
-
-      - title: A Reciprocal Relationship between Social Engagement and Grip Strength
-        authors:
-          - J. Son
-          - "*Pildoo Sung*"
-        journal: Gerontology
-        date: 2024
-        doi: 10.1159/000540344
-
       - title: "Stress and Loneliness among Family Caregivers of Older Persons with Cognitive Impairment: The Mediating Role of Social Isolation and the Moderating Role of Personal Mastery"
         authors:
           - "*Pildoo Sung*"
@@ -156,10 +146,18 @@ cv:
           - J. M.-L. Lee
           - A. Chan
         journal: Journal of Aging and Health
-        date: 2024
+        date: 2025
         doi: 10.1177/08982643241262374
 
-      - title: The Relationship among Generalized Trust, Social Networks, and Social Resources across Thirty Countries
+      - title: A Reciprocal Relationship between Formal and Informal Social Engagement and Handgrip Strength of Older Adults in South Korea
+        authors:
+          - J. Son
+          - "*Pildoo Sung*"
+        journal: Gerontology
+        date: 2024
+        doi: 10.1159/000540344
+
+      - title: The Relationship among Generalized Trust, Social Networks, and Social Resources across 30 Countries
         authors:
           - J. Son
           - "*Pildoo Sung*"
@@ -204,7 +202,7 @@ cv:
           - "*Pildoo Sung*"
           - R. Malhotra
         journal: Journal of Aging and Health
-        date: 2023
+        date: 2024
         doi: 10.1177/08982643231209086
 
       - title: "Older Adult Patient Preferences for the Content and Format of Prescription Medication Labels — A Best-worst Scaling and Discrete Choice Experiment Study"
