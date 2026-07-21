@@ -83,7 +83,7 @@ The current projects build on four lines of published research.
 </figure>
 
 Using latent class and latent transition analysis, I classify older adults' networks into types and follow how people move between them—after widowhood, during the pandemic, and over ordinary time—with consequences ranging from depressive symptoms to all-cause mortality.
- Newly accepted work asks a complementary question: whether loneliness also depends on the status of the people older adults are tied to, their own status, and the standing of the region around them (_Journal of Health Psychology_, accepted).
+Newly accepted work asks a complementary question: whether loneliness also depends on the status of the people older adults are tied to, their own status, and the standing of the region around them (_Journal of Health Psychology_, accepted).
 
 **Selected work:** [Getting Lonely and Isolated?](https://doi.org/10.1016/j.socnet.2025.12.005) (_Social Networks_, 2026) · [Stability and Changes in Social Network Profiles After Widowhood](https://doi.org/10.1002/psp.70231) (_Population, Space and Place_, 2026) · [Transitions between Social Network Profiles and All-cause Mortality](https://doi.org/10.1016/j.socscimed.2021.114617) (_Social Science & Medicine_, 2022)
 
