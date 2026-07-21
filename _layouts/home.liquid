@@ -1,0 +1,193 @@
+---
+layout: default
+---
+
+<style>
+  .pildoo-home {
+    --pildoo-muted: color-mix(in srgb, var(--global-text-color) 68%, transparent);
+    --pildoo-border: color-mix(in srgb, var(--global-text-color) 14%, transparent);
+  }
+
+  .pildoo-hero {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 2.5rem 1rem 2.75rem;
+    text-align: center;
+  }
+
+  .pildoo-avatar {
+    display: block;
+    width: 188px;
+    height: 188px;
+    margin: 0 auto 1.4rem;
+    border: 4px solid var(--global-bg-color);
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px var(--global-theme-color), 0 10px 30px rgba(0, 0, 0, 0.13);
+    object-fit: cover;
+  }
+
+  .pildoo-hero h1 {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: clamp(2.25rem, 5vw, 3.5rem);
+    letter-spacing: -0.03em;
+  }
+
+  .pildoo-subtitle {
+    margin: 0.65rem 0 0;
+    color: var(--pildoo-muted);
+    font-size: 1.05rem;
+  }
+
+  .pildoo-actions,
+  .pildoo-nav,
+  .pildoo-keywords {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.55rem;
+  }
+
+  .pildoo-actions {
+    margin: 1.6rem 0 1.4rem;
+  }
+
+  .pildoo-action,
+  .pildoo-nav a,
+  .pildoo-keyword {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.35rem;
+    padding: 0.42rem 0.85rem;
+    border: 1px solid var(--pildoo-border);
+    border-radius: 0.35rem;
+    background: color-mix(in srgb, var(--global-theme-color) 5%, var(--global-bg-color));
+    color: var(--global-text-color);
+    font-size: 0.92rem;
+    text-decoration: none;
+    transition: border-color 160ms ease, color 160ms ease, transform 160ms ease;
+  }
+
+  .pildoo-action:hover,
+  .pildoo-nav a:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+
+  .pildoo-nav {
+    margin-bottom: 1.6rem;
+  }
+
+  .pildoo-nav a {
+    border: 0;
+    background: transparent;
+    color: var(--global-theme-color);
+    font-size: 0.9rem;
+  }
+
+  .pildoo-keywords {
+    gap: 0.45rem;
+  }
+
+  .pildoo-keyword {
+    min-height: 0;
+    padding: 0.35rem 0.7rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--global-text-color) 5%, var(--global-bg-color));
+    color: var(--pildoo-muted);
+    font-size: 0.82rem;
+  }
+
+  .pildoo-section {
+    max-width: var(--max-content-width);
+    margin: 0 auto;
+    padding: 0 1rem 2.75rem;
+  }
+
+  .pildoo-section h2 {
+    margin-top: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+  }
+
+  .pildoo-content > p:first-child {
+    font-size: 1.08rem;
+    line-height: 1.75;
+  }
+
+  @media (max-width: 576px) {
+    .pildoo-hero {
+      padding-top: 1.5rem;
+    }
+
+    .pildoo-avatar {
+      width: 156px;
+      height: 156px;
+    }
+  }
+</style>
+
+<div class="pildoo-home">
+  <section class="pildoo-hero" aria-labelledby="pildoo-home-title">
+    <img
+      class="pildoo-avatar"
+      src="{{ '/assets/img/pildoo-profile.jpg' | relative_url }}"
+      alt="Portrait of {{ site.title }}"
+      width="800"
+      height="800"
+      loading="eager"
+    >
+
+    <h1 id="pildoo-home-title">{{ site.title }}</h1>
+    <p class="pildoo-subtitle">
+      Assistant Professor of Sociology ·
+      <a href="https://socio.hanyang.ac.kr/home">Hanyang University</a>
+    </p>
+
+    <div class="pildoo-actions" aria-label="Professional links">
+      <a class="pildoo-action" href="{{ site.data.socials.cv_pdf | relative_url }}">CV</a>
+      <a
+        class="pildoo-action"
+        href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"
+        >Google Scholar</a
+      >
+      <a class="pildoo-action" href="https://orcid.org/{{ site.data.socials.orcid_id }}">ORCID</a>
+      <a class="pildoo-action" href="mailto:{{ site.data.socials.email }}">Email</a>
+    </div>
+
+    <nav class="pildoo-nav" aria-label="Homepage sections">
+      <a href="#about">About</a>
+      <a href="{{ '/research/' | relative_url }}">Research</a>
+      <a href="{{ '/publications/' | relative_url }}">Publications</a>
+      <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
+    </nav>
+
+    <div class="pildoo-keywords" aria-label="Research areas">
+      <span class="pildoo-keyword">Social relationships</span>
+      <span class="pildoo-keyword">Aging &amp; health</span>
+      <span class="pildoo-keyword">Caregiving</span>
+      <span class="pildoo-keyword">Social capital</span>
+      <span class="pildoo-keyword">Quantitative methods</span>
+    </div>
+  </section>
+
+  <section id="about" class="pildoo-section">
+    <h2>About Me</h2>
+    <div class="pildoo-content">{{ content }}</div>
+  </section>
+
+  {% if page.selected_papers %}
+    <section id="publications" class="pildoo-section">
+      <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a></h2>
+      {% include selected_papers.liquid %}
+    </section>
+  {% endif %}
+
+  <section class="pildoo-section" aria-label="Contact">
+    <div class="social">
+      <div class="contact-icons">{% social_links %}</div>
+      <div class="contact-note">{{ site.contact_note }}</div>
+    </div>
+  </section>
+</div>
