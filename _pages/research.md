@@ -2,8 +2,6 @@
 layout: page
 permalink: /research/
 title: research
-nav: true
-nav_order: 2
 description: Research on social capital and trust, oral health, network trajectories, and family caregiving across the life course.
 ---
 
