@@ -1,29 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
-  <title id="title">Reciprocal relationship between engagement and health</title>
-  <desc id="desc">Formal and informal engagement are linked in both directions with later-life health outcomes.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img" aria-labelledby="title desc">
+  <title id="title">Cross-lagged links between oral health, social engagement, and depressive symptoms</title>
+  <desc id="desc">A simplified two-wave path model shows better oral health predicting greater social engagement, and greater social engagement predicting fewer depressive symptoms.</desc>
   <defs>
-    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#0b5394"/></marker>
+    <marker id="arrow-blue" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9Z" fill="#0b5394"/></marker>
+    <marker id="arrow-green" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9Z" fill="#2f8a73"/></marker>
+    <marker id="arrow-gray" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9Z" fill="#9aacb8"/></marker>
   </defs>
-  <rect width="640" height="360" rx="22" fill="#f7fafc"/>
-  <text x="32" y="38" fill="#0b5394" font-family="Arial, sans-serif" font-size="19" font-weight="700">Engagement and health move together</text>
-  <text x="32" y="62" fill="#587084" font-family="Arial, sans-serif" font-size="13">formal and informal pathways are reciprocal</text>
-  <g font-family="Arial, sans-serif">
-    <rect x="45" y="107" width="182" height="62" rx="14" fill="#ffffff" stroke="#b9cedd"/>
-    <text x="136" y="133" text-anchor="middle" fill="#0b5394" font-size="15" font-weight="700">Formal engagement</text>
-    <text x="136" y="153" text-anchor="middle" fill="#587084" font-size="12">groups · volunteering · learning</text>
-    <rect x="45" y="214" width="182" height="62" rx="14" fill="#ffffff" stroke="#b9cedd"/>
-    <text x="136" y="240" text-anchor="middle" fill="#0b5394" font-size="15" font-weight="700">Informal engagement</text>
-    <text x="136" y="260" text-anchor="middle" fill="#587084" font-size="12">family · friends · neighbours</text>
-    <rect x="377" y="137" width="218" height="110" rx="16" fill="#eaf2f8" stroke="#0b5394" stroke-width="2"/>
-    <text x="486" y="164" text-anchor="middle" fill="#0b5394" font-size="15" font-weight="700">Later-life health</text>
-    <text x="486" y="188" text-anchor="middle" fill="#334e5f" font-size="12">oral health · handgrip strength</text>
-    <text x="486" y="208" text-anchor="middle" fill="#334e5f" font-size="12">cognitive function · depression</text>
-    <text x="486" y="228" text-anchor="middle" fill="#334e5f" font-size="12">quality of life</text>
-    <g fill="none" stroke="#0b5394" stroke-width="3" marker-end="url(#arrow)">
-      <path d="M227 138 C286 138 314 154 377 170"/><path d="M377 202 C314 219 286 246 227 246"/>
-      <path d="M227 246 C286 246 316 225 377 214"/>
+  <rect width="720" height="440" rx="22" fill="#f7fafc"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="30" y="38" fill="#0b5394" font-size="24" font-weight="700">Engagement links oral and mental health</text>
+    <text x="30" y="64" fill="#587084" font-size="14">Two-wave cross-lagged model, 2018 to 2020 (N = 3,860)</text>
+    <text x="150" y="92" text-anchor="middle" fill="#6d8290" font-size="13" font-weight="700">2018</text>
+    <text x="570" y="92" text-anchor="middle" fill="#6d8290" font-size="13" font-weight="700">2020</text>
+
+    <g fill="#ffffff" stroke="#b9cedd" stroke-width="1.5">
+      <rect x="38" y="108" width="224" height="58" rx="12"/><rect x="458" y="108" width="224" height="58" rx="12"/>
+      <rect x="38" y="212" width="224" height="58" rx="12"/><rect x="458" y="212" width="224" height="58" rx="12"/>
+      <rect x="38" y="316" width="224" height="58" rx="12"/><rect x="458" y="316" width="224" height="58" rx="12"/>
     </g>
-    <text x="316" y="124" fill="#587084" font-size="12" text-anchor="middle">shape</text>
-    <text x="315" y="270" fill="#587084" font-size="12" text-anchor="middle">shapes back</text>
+    <g fill="#334e5f" font-size="16" font-weight="700" text-anchor="middle">
+      <text x="150" y="143">Oral health</text><text x="570" y="143">Oral health</text>
+      <text x="150" y="247">Social engagement</text><text x="570" y="247">Social engagement</text>
+      <text x="150" y="351">Depressive symptoms</text><text x="570" y="351">Depressive symptoms</text>
+    </g>
+
+    <g fill="none" stroke="#c7d3db" stroke-width="2" marker-end="url(#arrow-gray)">
+      <path d="M262 137H450"/><path d="M262 241H450"/><path d="M262 345H450"/>
+    </g>
+    <g fill="#8a9ba6" font-size="11" text-anchor="middle">
+      <text x="356" y="129">stability</text><text x="356" y="233">stability</text><text x="356" y="337">stability</text>
+    </g>
+
+    <path d="M262 146C338 159 382 203 458 229" fill="none" stroke="#0b5394" stroke-width="4" marker-end="url(#arrow-blue)"/>
+    <rect x="319" y="160" width="104" height="25" rx="12" fill="#e8f0f7"/>
+    <text x="371" y="177" text-anchor="middle" fill="#0b5394" font-size="13" font-weight="700">beta = .063***</text>
+
+    <path d="M262 252C338 265 382 308 458 333" fill="none" stroke="#2f8a73" stroke-width="4" marker-end="url(#arrow-green)"/>
+    <rect x="321" y="269" width="100" height="25" rx="12" fill="#e7f2ef"/>
+    <text x="371" y="286" text-anchor="middle" fill="#176b5b" font-size="13" font-weight="700">beta = -.031*</text>
+
+    <path d="M262 334C337 319 383 273 458 252" fill="none" stroke="#9aacb8" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow-gray)"/>
+    <text x="367" y="312" text-anchor="middle" fill="#7d909c" font-size="12">beta = -.013, ns</text>
+
+    <rect x="28" y="397" width="664" height="27" rx="14" fill="#0b5394"/>
+    <text x="360" y="416" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="700">Social engagement partly mediated the oral health-depression pathway</text>
   </g>
 </svg>
