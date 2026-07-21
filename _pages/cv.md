@@ -10,3 +10,5 @@ description: Academic appointments, education, publications, grants, teaching, a
 toc:
   sidebar: left
 ---
+
+<!-- The downloadable PDF is compiled from cv/main.tex by .github/workflows/render-cv.yml. -->
