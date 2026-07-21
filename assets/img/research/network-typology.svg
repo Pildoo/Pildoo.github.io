@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Social network typology and transitions</title>
+  <desc id="desc">Three stylized network profiles connect through transition arrows to later-life outcomes.</desc>
+  <rect width="640" height="360" rx="22" fill="#f7fafc"/>
+  <text x="32" y="38" fill="#0b5394" font-family="Arial, sans-serif" font-size="19" font-weight="700">Network types can change</text>
+  <text x="32" y="62" fill="#587084" font-family="Arial, sans-serif" font-size="13">classification, transition, consequence</text>
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(32 92)">
+      <rect width="166" height="112" rx="14" fill="#ffffff" stroke="#b9cedd"/>
+      <text x="14" y="24" fill="#334e5f" font-size="13" font-weight="700">Locally embedded</text>
+      <g stroke="#0b5394" stroke-width="2"><path d="M44 57 L76 38 L110 61 L78 84 Z"/><path d="M44 57 L78 84"/><path d="M76 38 L110 61"/></g>
+      <g fill="#0b5394"><circle cx="44" cy="57" r="6"/><circle cx="76" cy="38" r="6"/><circle cx="110" cy="61" r="6"/><circle cx="78" cy="84" r="6"/></g>
+    </g>
+    <g transform="translate(237 92)">
+      <rect width="166" height="112" rx="14" fill="#ffffff" stroke="#b9cedd"/>
+      <text x="14" y="24" fill="#334e5f" font-size="13" font-weight="700">Family-focused</text>
+      <g stroke="#0b5394" stroke-width="2"><path d="M83 57 L45 38 M83 57 L122 38 M83 57 L45 82 M83 57 L122 82"/></g>
+      <g fill="#0b5394"><circle cx="83" cy="57" r="7"/><circle cx="45" cy="38" r="6"/><circle cx="122" cy="38" r="6"/><circle cx="45" cy="82" r="6"/><circle cx="122" cy="82" r="6"/></g>
+    </g>
+    <g transform="translate(442 92)">
+      <rect width="166" height="112" rx="14" fill="#ffffff" stroke="#b9cedd"/>
+      <text x="14" y="24" fill="#334e5f" font-size="13" font-weight="700">Isolated</text>
+      <g fill="#0b5394"><circle cx="48" cy="60" r="7"/><circle cx="83" cy="60" r="7"/><circle cx="118" cy="60" r="7"/></g>
+      <g fill="none" stroke="#c8d9e5" stroke-width="2"><circle cx="48" cy="60" r="17"/><circle cx="83" cy="60" r="17"/><circle cx="118" cy="60" r="17"/></g>
+    </g>
+    <g fill="none" stroke="#0b5394" stroke-width="2" marker-end="url(#arrow)">
+      <path d="M198 148 H229"/><path d="M403 148 H434"/>
+    </g>
+    <g fill="#587084" font-size="12" text-anchor="middle"><text x="214" y="137">transition</text><text x="419" y="137">transition</text></g>
+    <rect x="86" y="255" width="468" height="56" rx="14" fill="#eaf2f8"/>
+    <text x="320" y="278" text-anchor="middle" fill="#0b5394" font-size="13" font-weight="700">widowhood · pandemic · ordinary time</text>
+    <text x="320" y="298" text-anchor="middle" fill="#334e5f" font-size="12">depression · loneliness · all-cause mortality</text>
+  </g>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#0b5394"/></marker></defs>
+</svg>

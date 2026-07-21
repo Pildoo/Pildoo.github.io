@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Complete sociocentric network</title>
+  <desc id="desc">Older residents are shown as nodes in a complete community network. Directed lines distinguish ties people send from nominations they receive.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#0b5394"/></marker>
+    <marker id="arrow-muted" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#9bb8cf"/></marker>
+  </defs>
+  <rect width="640" height="360" rx="22" fill="#f7fafc"/>
+  <text x="32" y="38" fill="#0b5394" font-family="Arial, sans-serif" font-size="19" font-weight="700">One community, everyone observed</text>
+  <text x="32" y="62" fill="#587084" font-family="Arial, sans-serif" font-size="13">sent ties and received nominations</text>
+  <g stroke="#c8d9e5" stroke-width="2" fill="none" marker-end="url(#arrow-muted)">
+    <path d="M120 156 C180 90 230 91 286 133"/><path d="M286 133 C348 93 424 105 472 150"/>
+    <path d="M472 150 C526 187 509 257 448 279"/><path d="M448 279 C376 322 304 299 270 253"/>
+    <path d="M270 253 C210 289 148 270 120 220"/><path d="M120 220 C88 196 90 175 120 156"/>
+  </g>
+  <g stroke="#0b5394" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M120 156 C170 180 207 189 250 183"/><path d="M250 183 C300 138 346 137 388 163"/>
+    <path d="M388 163 C418 194 428 222 413 260"/><path d="M413 260 C366 255 324 238 270 253"/>
+    <path d="M270 253 C229 237 194 221 164 202"/>
+  </g>
+  <g fill="#ffffff" stroke="#0b5394" stroke-width="3">
+    <circle cx="120" cy="156" r="14"/><circle cx="286" cy="133" r="14"/><circle cx="472" cy="150" r="14"/>
+    <circle cx="448" cy="279" r="14"/><circle cx="270" cy="253" r="14"/><circle cx="120" cy="220" r="14"/>
+    <circle cx="250" cy="183" r="16" fill="#0b5394"/>
+  </g>
+  <text x="250" y="188" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="10" font-weight="700">ego</text>
+  <g font-family="Arial, sans-serif" font-size="12">
+    <line x1="40" y1="313" x2="75" y2="313" stroke="#0b5394" stroke-width="3" marker-end="url(#arrow)"/><text x="84" y="317" fill="#334e5f">ties named</text>
+    <line x1="202" y1="313" x2="237" y2="313" stroke="#9bb8cf" stroke-width="2" marker-end="url(#arrow-muted)"/><text x="246" y="317" fill="#334e5f">nominations received</text>
+  </g>
+</svg>

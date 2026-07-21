@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Family caregiving network</title>
+  <desc id="desc">A care recipient is connected to several family caregivers who share tasks, while loneliness and mastery shape caregiver well-being.</desc>
+  <rect width="640" height="360" rx="22" fill="#f7fafc"/>
+  <text x="32" y="38" fill="#0b5394" font-family="Arial, sans-serif" font-size="19" font-weight="700">Care is shared across a family network</text>
+  <text x="32" y="62" fill="#587084" font-family="Arial, sans-serif" font-size="13">tasks, dyads, and caregiver well-being</text>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#0b5394"/></marker></defs>
+  <g font-family="Arial, sans-serif">
+    <g stroke="#9bb8cf" stroke-width="2" fill="none"><path d="M320 178 L171 126"/><path d="M320 178 L470 126"/><path d="M320 178 L171 249"/><path d="M320 178 L470 249"/></g>
+    <g stroke="#0b5394" stroke-width="2" fill="none" marker-end="url(#arrow)"><path d="M171 126 L292 169"/><path d="M470 126 L348 169"/><path d="M171 249 L292 187"/><path d="M470 249 L348 187"/></g>
+    <circle cx="320" cy="178" r="39" fill="#0b5394"/>
+    <text x="320" y="174" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="700">care</text>
+    <text x="320" y="191" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="700">recipient</text>
+    <g fill="#ffffff" stroke="#b9cedd" stroke-width="2">
+      <circle cx="171" cy="126" r="29"/><circle cx="470" cy="126" r="29"/><circle cx="171" cy="249" r="29"/><circle cx="470" cy="249" r="29"/>
+    </g>
+    <g fill="#0b5394" font-size="12" font-weight="700" text-anchor="middle"><text x="171" y="130">family</text><text x="470" y="130">family</text><text x="171" y="253">family</text><text x="470" y="253">family</text></g>
+    <rect x="63" y="300" width="514" height="34" rx="12" fill="#eaf2f8"/>
+    <text x="320" y="322" text-anchor="middle" fill="#334e5f" font-size="12">task-sharing · loneliness · mastery · resilience · burden</text>
+  </g>
+</svg>
