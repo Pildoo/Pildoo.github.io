@@ -11,7 +11,12 @@ My research examines how social relationships shape health and well-being in lat
 
 ## Current research: sociocentric network analysis
 
-My current projects move beyond self-reported, egocentric network measures to sociocentric analysis—complete maps of who is connected to whom in whole communities. Using village network data from the Korean Social Life, Health and Aging Project (KSHAP), I am studying whether the ties older adults _receive_ from others—not just the ones they name themselves—protect against loneliness, and whether that protection differs by age; how loneliness and depressive symptoms spread from person to person as village networks and health co-evolve (stochastic actor-oriented models); and how patterns of connection in these communities shift over time, including their links to oral health.
+My current projects use complete—sociocentric—network data from the Korean Social Life, Health and Aging Project (KSHAP), which repeatedly enumerated who names whom among the older residents of rural Korean townships. Because everyone in the community is observed, these data can separate the ties people report from the nominations they receive—something egocentric surveys cannot do. Ongoing studies ask:
+
+- **Being chosen and loneliness** — whether the nominations older adults _receive_ from others, especially from non-kin, protect against subsequent loneliness beyond the ties they name themselves, and whether that differs in advanced old age.
+- **Selection or influence** — when similarity between connected villagers reflects choosing similar others and when it reflects contagion, comparing visible behaviors (social participation, drinking, smoking) with less visible states (depressive symptoms) as networks and behavior co-evolve in stochastic actor-oriented models.
+- **From teeth to ties** — how tooth loss changes the discussion nominations older adults receive, and what that means for later cognitive function.
+- **Network trajectories** — long-run trajectories of received and sent ties across survey waves and their links to cognitive aging.
 
 ## Published lines of work
 
