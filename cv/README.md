@@ -15,3 +15,5 @@ The source of truth for the downloadable PDF is `main.tex` and the files in
 The current integration is one-way from the repository to the website. A
 direct two-way Overleaf sync can be added later if the Overleaf Git URL and
 authentication are configured.
+
+The build workflow is `.github/workflows/render-cv.yml`.
