@@ -74,7 +74,26 @@ layout: default
     margin: 1.6rem 0 1.4rem;
   }
 
-  .pildoo-action,
+  .pildoo-social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.45rem;
+    height: 2.45rem;
+    border-radius: 50%;
+    color: var(--global-theme-color);
+    font-size: 1.25rem;
+    text-decoration: none;
+    transition: background-color 160ms ease, color 160ms ease, transform 160ms ease;
+  }
+
+  .pildoo-social-link:hover {
+    background: color-mix(in srgb, var(--global-theme-color) 10%, var(--global-bg-color));
+    color: var(--global-theme-color);
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+
   .pildoo-nav a,
   .pildoo-keyword {
     display: inline-flex;
@@ -90,7 +109,6 @@ layout: default
     transition: border-color 160ms ease, color 160ms ease, transform 160ms ease;
   }
 
-  .pildoo-action:hover,
   .pildoo-nav a:hover {
     border-color: var(--global-theme-color);
     color: var(--global-theme-color);
@@ -168,14 +186,30 @@ layout: default
     </p>
 
     <div class="pildoo-actions" aria-label="Professional links">
-      <a class="pildoo-action" href="{{ site.data.socials.cv_pdf | relative_url }}">CV</a>
       <a
-        class="pildoo-action"
+        class="pildoo-social-link"
+        href="{{ site.data.socials.cv_pdf | relative_url }}"
+        title="CV"
+        aria-label="CV"
+      ><i class="ai ai-cv" aria-hidden="true"></i></a>
+      <a
+        class="pildoo-social-link"
         href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"
-        >Google Scholar</a
-      >
-      <a class="pildoo-action" href="https://orcid.org/{{ site.data.socials.orcid_id }}">ORCID</a>
-      <a class="pildoo-action" href="mailto:{{ site.data.socials.email }}">Email</a>
+        title="Google Scholar"
+        aria-label="Google Scholar"
+      ><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+      <a
+        class="pildoo-social-link"
+        href="https://orcid.org/{{ site.data.socials.orcid_id }}"
+        title="ORCID"
+        aria-label="ORCID"
+      ><i class="ai ai-orcid" aria-hidden="true"></i></a>
+      <a
+        class="pildoo-social-link"
+        href="mailto:{{ site.data.socials.email }}"
+        title="Email"
+        aria-label="Email"
+      ><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
     </div>
 
     <nav class="pildoo-nav" aria-label="Homepage sections">
