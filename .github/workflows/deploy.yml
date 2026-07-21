@@ -79,6 +79,11 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+        with:
+          # On a workflow_run trigger the CV build has just committed the new
+          # PDF to main; check out main's HEAD so the deploy includes it rather
+          # than the commit that originally triggered the CV build.
+          ref: ${{ github.event_name == 'workflow_run' && 'refs/heads/main' || '' }}
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
