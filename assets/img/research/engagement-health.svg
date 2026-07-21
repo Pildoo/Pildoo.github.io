@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Reciprocal relationship between engagement and health</title>
+  <desc id="desc">Formal and informal engagement are linked in both directions with later-life health outcomes.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#0b5394"/></marker>
+  </defs>
+  <rect width="640" height="360" rx="22" fill="#f7fafc"/>
+  <text x="32" y="38" fill="#0b5394" font-family="Arial, sans-serif" font-size="19" font-weight="700">Engagement and health move together</text>
+  <text x="32" y="62" fill="#587084" font-family="Arial, sans-serif" font-size="13">formal and informal pathways are reciprocal</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="45" y="107" width="182" height="62" rx="14" fill="#ffffff" stroke="#b9cedd"/>
+    <text x="136" y="133" text-anchor="middle" fill="#0b5394" font-size="15" font-weight="700">Formal engagement</text>
+    <text x="136" y="153" text-anchor="middle" fill="#587084" font-size="12">groups · volunteering · learning</text>
+    <rect x="45" y="214" width="182" height="62" rx="14" fill="#ffffff" stroke="#b9cedd"/>
+    <text x="136" y="240" text-anchor="middle" fill="#0b5394" font-size="15" font-weight="700">Informal engagement</text>
+    <text x="136" y="260" text-anchor="middle" fill="#587084" font-size="12">family · friends · neighbours</text>
+    <rect x="377" y="137" width="218" height="110" rx="16" fill="#eaf2f8" stroke="#0b5394" stroke-width="2"/>
+    <text x="486" y="164" text-anchor="middle" fill="#0b5394" font-size="15" font-weight="700">Later-life health</text>
+    <text x="486" y="188" text-anchor="middle" fill="#334e5f" font-size="12">oral health · handgrip strength</text>
+    <text x="486" y="208" text-anchor="middle" fill="#334e5f" font-size="12">cognitive function · depression</text>
+    <text x="486" y="228" text-anchor="middle" fill="#334e5f" font-size="12">quality of life</text>
+    <g fill="none" stroke="#0b5394" stroke-width="3" marker-end="url(#arrow)">
+      <path d="M227 138 C286 138 314 154 377 170"/><path d="M377 202 C314 219 286 246 227 246"/>
+      <path d="M227 246 C286 246 316 225 377 214"/>
+    </g>
+    <text x="316" y="124" fill="#587084" font-size="12" text-anchor="middle">shape</text>
+    <text x="315" y="270" fill="#587084" font-size="12" text-anchor="middle">shapes back</text>
+  </g>
+</svg>
