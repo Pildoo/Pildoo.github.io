@@ -416,30 +416,31 @@ cv:
         summary: "Kim, H., & Sung, P. — Status: Draft available."
 
     Conference Presentations:
-      - name: "Oral Health-Related Quality of Life and Formal Social Engagement Among Older Adults: How Does Gender Matter?"
-        date: 2025
-        highlights:
-          - "2025 — Hong Kong Sociological Association 26th Annual Conference, Hong Kong"
-
-      - name: "Oral Health and Social Engagement Among Older Adults: A Gendered Story"
-        date: 2026
-        highlights:
-          - "Singapore Conference on Ageing and Health 2026, Singapore"
-
       - name: "Drifting into Isolation or Growing as a Hub?: Joint Trajectories of In-Degree and Out-Degree Centrality and Cognitive Resilience among Older Adults"
         date: 2026
         highlights:
-          - "Population Association of Singapore Annual Conference, Singapore"
-
-      - name: "Post-Retirement Trajectories of Depressive Symptoms in South Korea: The Positive Role of Returning to Work"
-        date: 2026
-        highlights:
+          - "4th READI Meeting, The Chinese University of Hong Kong"
           - "Population Association of Singapore Annual Conference, Singapore"
 
       - name: "From Teeth to Ties: Being Sought Out, Not Seeking Out, Links Oral Health to Cognitive Health"
         date: 2026
         highlights:
           - "23rd IAGG World Congress of Gerontology and Geriatrics, Amsterdam, Netherlands"
+
+      - name: "Oral Health and Social Engagement Among Older Adults: A Gendered Story"
+        date: 2026
+        highlights:
+          - "Singapore Conference on Ageing and Health 2026, Singapore"
+
+      - name: "Post-Retirement Trajectories of Depressive Symptoms in South Korea: The Positive Role of Returning to Work"
+        date: 2026
+        highlights:
+          - "Population Association of Singapore Annual Conference, Singapore"
+
+      - name: "Oral Health-Related Quality of Life and Formal Social Engagement Among Older Adults: How Does Gender Matter?"
+        date: 2025
+        highlights:
+          - "Hong Kong Sociological Association 26th Annual Conference, Hong Kong"
 
       - name: "Who Keeps on Learning? Understanding Heterogeneity in Resource Profiles of Older Learners to Promote Recurrent Engagement in Learning"
         date: 2025
@@ -774,7 +775,7 @@ cv:
 
     Journal Reviewer:
       - label: Reviewer for
-        details: Aging and Health Research, Australian & New Zealand Journal of Public Health, BMC Geriatrics, BMC Public Health, Dementia and Geriatric Cognitive Disorders, Health & Place, Health Psychology, Health and Social Science, International Journal of Comparative Sociology, Journal of Aging and Health, Journal of Applied Gerontology, Journal of the Korean Gerontological Society, Korea Journal of Population Studies, Korean Journal of Sociology, Scientific Reports, Social Science Research, Sociology of Health & Illness, The Gerontologist, The Journals of Gerontology Series B
+        details: Aging & Mental Health, Aging and Health Research, Australian & New Zealand Journal of Public Health, BMC Geriatrics, BMC Public Health, Dementia and Geriatric Cognitive Disorders, Demographic Research, Geriatrics & Gerontology International, Health & Place, Health and Social Science, Health Psychology, Innovation in Aging, International Journal of Comparative Sociology, Journal of Aging and Health, Journal of Applied Gerontology, Journal of Marriage and Family, Journal of Public Society, Journal of the Korean Gerontological Society, Korea Journal of Population Studies, Korean Journal of Gerontological Social Welfare, Korean Journal of Sociology, Scientific Reports, Social Science Research, Sociology of Health & Illness, Survey Research, The Gerontologist, The Journals of Gerontology Series B
 
     Professional Organization Membership:
       - label: Member of
