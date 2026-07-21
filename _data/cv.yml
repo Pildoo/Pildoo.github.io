@@ -5,7 +5,7 @@ cv:
   email: pildoosung@hanyang.ac.kr
   photo:
   phone:
-  website: https://pildoosung.com
+  website: https://pildoo.github.io
   social_networks:
     - network: ORCID
       username: 0000-0002-5730-6241
@@ -388,7 +388,7 @@ cv:
       - name: "The Strength of Strong Ties: Resources in Close Relationships and Life Satisfaction Across 30 Countries"
         summary: "Sung, P., & Son, J. — Status: Draft available."
 
-      - name: Drifting into Isolation or Growing into the Core? Joint Trajectories of In-Degree and Out-Degree Centrality and Later-Life Cognitive Function among Older Adults
+      - name: "Drifting into Isolation or Growing as a Hub?: Joint Trajectories of In-Degree and Out-Degree Centrality and Cognitive Resilience among Older Adults"
         summary: "Sung, P., & Youm, Y. — Status: Draft available."
 
       - name: "Adherence Trajectories and Determinants of Adherence Transition Patterns from Active Intervention to Self-Maintenance Phases of an Exercise-based Falls Prevention Programme"
@@ -399,11 +399,29 @@ cv:
 
     Conference Presentations:
       - name: "Oral Health-Related Quality of Life and Formal Social Engagement Among Older Adults: How Does Gender Matter?"
-        start_date: 2025
-        end_date: 2026
+        date: 2025
         highlights:
-          - "2026 — Singapore Conference on Ageing and Health 2026, Singapore"
           - "2025 — Hong Kong Sociological Association 26th Annual Conference, Hong Kong"
+
+      - name: "Oral Health and Social Engagement Among Older Adults: A Gendered Story"
+        date: 2026
+        highlights:
+          - "Singapore Conference on Ageing and Health 2026, Singapore"
+
+      - name: "Drifting into Isolation or Growing as a Hub?: Joint Trajectories of In-Degree and Out-Degree Centrality and Cognitive Resilience among Older Adults"
+        date: 2026
+        highlights:
+          - "Population Association of Singapore Annual Conference, Singapore"
+
+      - name: "Post-Retirement Trajectories of Depressive Symptoms in South Korea: The Positive Role of Returning to Work"
+        date: 2026
+        highlights:
+          - "Population Association of Singapore Annual Conference, Singapore"
+
+      - name: "From Teeth to Ties: Being Sought Out, Not Seeking Out, Links Oral Health to Cognitive Health"
+        date: 2026
+        highlights:
+          - "23rd IAGG World Congress of Gerontology and Geriatrics, Amsterdam, Netherlands"
 
       - name: "Who Keeps on Learning? Understanding Heterogeneity in Resource Profiles of Older Learners to Promote Recurrent Engagement in Learning"
         date: 2025
