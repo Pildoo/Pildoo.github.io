@@ -17,6 +17,7 @@ My current projects use complete—sociocentric—network data, which repeatedly
 - **Selection or influence** — when similarity between connected villagers reflects choosing similar others and when it reflects contagion, comparing visible behaviors (social participation, drinking, smoking) with less visible states (depressive symptoms) as networks and behavior co-evolve in stochastic actor-oriented models.
 - **From teeth to ties** — how tooth loss changes the discussion nominations older adults receive, and what that means for later cognitive function.
 - **Network trajectories** — long-run trajectories of received and sent ties across survey waves and their links to cognitive aging.
+- **Cultural holes** — developing measures of whether older adults bridge culturally dissimilar others who are not connected to each other, and what such culturally weighted brokerage means for well-being in later life.
 
 ## Published lines of work
 
