@@ -1,20 +1,271 @@
 ---
-layout: home
+layout: default
 title: about
 permalink: /
-subtitle: Assistant Professor of Sociology, <a href="https://socio.hanyang.ac.kr/home">Hanyang University</a>
-
 selected_papers: true
-
-announcements:
-  enabled: false
-
-latest_posts:
-  enabled: false
 ---
 
-I am a sociologist studying how social relationships, health, and family processes shape well-being across the life course. My work brings together social gerontology, medical sociology, social network analysis, and longitudinal methods, drawing on national panel studies of older adults in South Korea and Singapore as well as cross-national surveys such as the ISSP.
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "{{ site.url }}/#person",
+    "name": "Pildoo Sung",
+    "url": "{{ site.url }}/",
+    "jobTitle": "Assistant Professor of Sociology",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "Hanyang University",
+      "url": "https://socio.hanyang.ac.kr/home"
+    },
+    "sameAs": [
+      "https://github.com/Pildoo",
+      "https://orcid.org/0000-0002-5730-6241",
+      "https://scholar.google.com/citations?user=zJTtOhYAAAAJ",
+      "https://socio.hanyang.ac.kr/home"
+    ]
+  }
+</script>
 
-I am an Assistant Professor in the [Department of Sociology at Hanyang University](https://socio.hanyang.ac.kr/home). Previously, I was an Assistant Professor at [Hong Kong Baptist University](https://socweb.hkbu.edu.hk/) and a Research Fellow at the [Centre for Ageing Research and Education, Duke-NUS Medical School](https://www.duke-nus.edu.sg/care). I received my Ph.D. in Sociology from the [National University of Singapore](https://fass.nus.edu.sg/socanth/).
+<style>
+  .pildoo-home {
+    --pildoo-muted: color-mix(in srgb, var(--global-text-color) 68%, transparent);
+    --pildoo-border: color-mix(in srgb, var(--global-text-color) 14%, transparent);
+  }
 
-For a fuller overview, see my [research page](/research/), [publications](/publications/), or [teaching](/teaching/).
+  .pildoo-hero {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 2.5rem 1rem 2.75rem;
+    text-align: center;
+  }
+
+  .pildoo-avatar {
+    display: block;
+    width: 188px;
+    height: 188px;
+    margin: 0 auto 1.4rem;
+    border: 4px solid var(--global-bg-color);
+    border-radius: 50%;
+    box-shadow:
+      0 0 0 2px var(--global-theme-color),
+      0 10px 30px rgba(0, 0, 0, 0.13);
+    object-fit: cover;
+  }
+
+  .pildoo-hero h1 {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: clamp(2.25rem, 5vw, 3.5rem);
+    letter-spacing: -0.03em;
+  }
+
+  .pildoo-subtitle {
+    margin: 0.65rem 0 0;
+    color: var(--pildoo-muted);
+    font-size: 1.05rem;
+  }
+
+  .pildoo-actions,
+  .pildoo-nav,
+  .pildoo-keywords {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.55rem;
+  }
+
+  .pildoo-actions {
+    margin: 1.6rem 0 1.4rem;
+  }
+
+  .pildoo-social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.9rem;
+    height: 2.9rem;
+    border-radius: 50%;
+    color: var(--global-theme-color);
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition:
+      background-color 160ms ease,
+      color 160ms ease,
+      transform 160ms ease;
+  }
+
+  .pildoo-social-link:hover {
+    background: color-mix(in srgb, var(--global-theme-color) 10%, var(--global-bg-color));
+    color: var(--global-theme-color);
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+
+  .pildoo-nav a,
+  .pildoo-keyword {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.35rem;
+    padding: 0.42rem 0.85rem;
+    border: 1px solid var(--pildoo-border);
+    border-radius: 0.35rem;
+    background: color-mix(in srgb, var(--global-theme-color) 5%, var(--global-bg-color));
+    color: var(--global-text-color);
+    font-size: 0.92rem;
+    text-decoration: none;
+    transition:
+      border-color 160ms ease,
+      color 160ms ease,
+      transform 160ms ease;
+  }
+
+  .pildoo-nav a:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+
+  .pildoo-nav {
+    margin-bottom: 1.6rem;
+  }
+
+  .pildoo-nav a {
+    border: 0;
+    background: transparent;
+    color: var(--global-theme-color);
+    font-size: 0.9rem;
+  }
+
+  .pildoo-keywords {
+    gap: 0.45rem;
+  }
+
+  .pildoo-keyword {
+    min-height: 0;
+    padding: 0.35rem 0.7rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--global-text-color) 5%, var(--global-bg-color));
+    color: var(--pildoo-muted);
+    font-size: 0.82rem;
+  }
+
+  .pildoo-section {
+    max-width: var(--max-content-width);
+    margin: 0 auto;
+    padding: 0 1rem 2.75rem;
+  }
+
+  .pildoo-section h2 {
+    margin-top: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+  }
+
+  @media (max-width: 576px) {
+    .pildoo-hero {
+      padding-top: 1.5rem;
+    }
+
+    .pildoo-avatar {
+      width: 156px;
+      height: 156px;
+    }
+  }
+</style>
+
+<div class="pildoo-home">
+  <section class="pildoo-hero" aria-labelledby="pildoo-home-title">
+    <img
+      class="pildoo-avatar"
+      src="{{ '/assets/img/pildoo-profile-centered-20260721.png' | relative_url }}"
+      alt="Portrait of {{ site.title }}"
+      width="800"
+      height="800"
+      loading="eager"
+    >
+
+    <h1 id="pildoo-home-title">{{ site.title }}</h1>
+    <p class="pildoo-subtitle">
+      Assistant Professor of Sociology ·
+      <a href="https://socio.hanyang.ac.kr/home">Hanyang University</a>
+    </p>
+
+    <div class="pildoo-actions" aria-label="Professional links">
+      <a
+        class="pildoo-social-link"
+        href="{{ site.data.socials.cv_pdf | relative_url }}"
+        title="CV"
+        aria-label="CV"
+        ><i class="ai ai-cv" aria-hidden="true"></i
+      ></a>
+      <a
+        class="pildoo-social-link"
+        href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"
+        title="Google Scholar"
+        aria-label="Google Scholar"
+        ><i class="ai ai-google-scholar" aria-hidden="true"></i
+      ></a>
+      <a
+        class="pildoo-social-link"
+        href="https://orcid.org/{{ site.data.socials.orcid_id }}"
+        title="ORCID"
+        aria-label="ORCID"
+        ><i class="ai ai-orcid" aria-hidden="true"></i
+      ></a>
+      <a
+        class="pildoo-social-link"
+        href="mailto:{{ site.data.socials.email }}"
+        title="Email"
+        aria-label="Email"
+        ><i class="fa-solid fa-envelope" aria-hidden="true"></i
+      ></a>
+    </div>
+
+    <nav class="pildoo-nav" aria-label="Homepage sections">
+      <a href="{{ '/research/' | relative_url }}">Research</a>
+      <a href="{{ '/publications/' | relative_url }}">Publications</a>
+      <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
+    </nav>
+
+    <div class="pildoo-keywords" aria-label="Research areas">
+      <span class="pildoo-keyword">Social capital &amp; trust</span>
+      <span class="pildoo-keyword">Health &amp; well-being</span>
+      <span class="pildoo-keyword">Social networks</span>
+      <span class="pildoo-keyword">Family caregiving</span>
+    </div>
+
+  </section>
+
+  <section id="about" class="pildoo-section">
+    <h2>About Me</h2>
+    <div class="pildoo-content">
+      <p>
+        I am a sociologist studying how social relationships, health, and family processes shape well-being across the life course. My work brings
+        together social gerontology, medical sociology, social network analysis, and longitudinal methods, drawing on national panel studies of older
+        adults in South Korea and Singapore as well as cross-national surveys such as the ISSP.
+      </p>
+      <p>
+        I am an Assistant Professor in the <a href="https://socio.hanyang.ac.kr/home">Department of Sociology at Hanyang University</a>. Previously, I
+        was an Assistant Professor at <a href="https://socweb.hkbu.edu.hk/">Hong Kong Baptist University</a> and a Research Fellow at the
+        <a href="https://www.duke-nus.edu.sg/care">Centre for Ageing Research and Education, Duke-NUS Medical School</a>. I received my Ph.D. in
+        Sociology from the <a href="https://fass.nus.edu.sg/socanth/">National University of Singapore</a>.
+      </p>
+      <p>For a fuller overview, see my <a href="/research/">research page</a>, <a href="/publications/">publications</a>, or <a href="/teaching/">teaching</a>.</p>
+    </div>
+  </section>
+
+{% if page.selected_papers %}
+
+<section id="publications" class="pildoo-section">
+<h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a></h2>
+{% include selected_papers.liquid %}
+</section>
+{% endif %}
+
+  <section class="pildoo-section" aria-label="Contact">
+    <div class="social">
+      <div class="contact-note">{{ site.contact_note }}</div>
+    </div>
+  </section>
+</div>
