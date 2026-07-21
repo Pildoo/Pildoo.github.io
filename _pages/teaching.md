@@ -9,26 +9,12 @@ description: Courses and workshops taught in sociology, health, and social resea
 
 I teach courses that connect sociological theory and empirical research with questions about health, aging, social relationships, and inequality.
 
-<style>
-  .teaching-syllabus-link {
-    color: #1f5f99;
-    font-weight: 600;
-    text-decoration: underline;
-    text-decoration-thickness: 0.08em;
-    text-underline-offset: 0.15em;
-  }
-
-  .teaching-syllabus-link:hover {
-    color: #0f3f6b;
-  }
-</style>
-
 ## Hanyang University
 
 ### 2025–2026
 
-- <a class="teaching-syllabus-link" href="/assets/pdf/teaching/Health_and_Social_Behavior_2026.pdf">Health and Social Behavior</a> (SOC4046)
-- <a class="teaching-syllabus-link" href="/assets/pdf/teaching/Analysis_of_Social_Problems_2025.pdf">Social Problems</a> (SOC3032)
+- **Health and Social Behavior** (SOC4046) — [syllabus](/assets/pdf/teaching/Health_and_Social_Behavior_2026.pdf)
+- **Social Problems** (SOC3032) — [syllabus](/assets/pdf/teaching/Analysis_of_Social_Problems_2025.pdf)
 - **Medical Sociology Seminar** (Graduate, SOC9116)
 - **Social Networks and Social Capital** (Graduate, SOC9115)
 
@@ -46,6 +32,5 @@ I teach courses that connect sociological theory and empirical research with que
 
 ## Methods workshops
 
-### 2021-2023
-
-**Latent class and transition analysis**
+- **Latent Class and Latent Transition Analysis** — Centre for Ageing Research and Education, Duke-NUS Medical School (2021–2023); invited sessions for the APRU Population Aging Program and the Department of Sociology, Korea University (2022)
+- **Multi-wave Panel Data Analysis** — Department of Internal Medicine, The Catholic University of Korea (2023)

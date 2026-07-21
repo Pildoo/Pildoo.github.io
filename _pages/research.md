@@ -7,54 +7,38 @@ nav_order: 2
 description: Research on social capital and trust, health and well-being, social networks, and family caregiving across the life course.
 ---
 
-My research examines how social relationships shape health, well-being, and participation across the life course—and how changing health and family responsibilities reshape those relationships in return. Across projects, I focus on the mechanisms that connect people to one another, and on what happens when those connections become fragile.
+My research examines how social relationships shape health and well-being across the life course—and how aging, illness, widowhood, and care responsibilities reshape those relationships in return. I am especially drawn to later life, when networks tend to narrow, care needs grow, and the resources embedded in relationships matter most. Across projects, I ask not simply whether relationships matter, but for whom, through which mechanisms, and how they change over time.
 
-## Four connected themes
+This agenda runs through four connected lines of work.
 
-### 1. Social capital & trust
+## Social capital and trust
 
-**Research question.** How does trust become a social resource, and when does it translate into meaningful connections and support?
+The first line asks how trust becomes a resource people can actually draw on. Using cross-national surveys such as the ISSP, I study how generalized trust relates to the networks people maintain and to the social resources those networks carry. In a study spanning 30 countries, generalized trust was associated with social networks—especially weak ties, the acquaintances who bridge otherwise separate social circles—and both weak and strong ties were linked to access to social resources. The pattern is consistent with a sequential model of social capital, running from trust to networks to resources. Related work compares East Asian societies, where trust in one's own circles plays a distinctive role in shaping health.
 
-**Current focus.** Using ISSP and other comparative survey data, I study generalized and in-group trust, close ties, weak ties, social resources, and their links to health, participation, and life satisfaction across countries and social contexts.
+**Selected work:** [The Relationship among Generalized Trust, Social Networks, and Social Resources across 30 Countries](https://doi.org/10.1177/02685809241251770) (_International Sociology_, 2024) · [In-Group Trust and Self-Rated Health in East Asia](https://doi.org/10.1177/0020715220937752) (_International Journal of Comparative Sociology_, 2020)
 
-**Selected finding.** Across 30 countries, generalized trust was associated with social networks, especially weak ties. Both weak and strong ties were linked to access to social resources, consistent with a sequential trust → network → resources model of social capital.
+## Health and social engagement in later life
 
-**Selected work:** [The Relationship among Generalized Trust, Social Networks, and Social Resources across Thirty Countries](https://doi.org/10.1177/02685809241251770); [In-Group Trust and Self-Rated Health in East Asia](https://doi.org/10.1177/0020715220937752).
+The second line examines how health and social engagement reinforce—or undermine—one another as people age. A current focus is oral health, a condition that directly shapes whether people can comfortably eat, talk, and smile with others. In longitudinal work on older South Koreans, oral health and depressive symptoms were reciprocally related—with depressive symptoms exerting the stronger effect on oral health—and formal social engagement partly mediated the pathway from oral health to depressive symptoms, with notable gender differences. Companion studies trace reciprocal links between social engagement and cognitive function, depression, and even handgrip strength, treating health in later life as a social process rather than a purely medical one.
 
-### 2. Health & well-being
+**Selected work:** [Oral Health-Related Quality of Life and Social Engagement: Gender Differences](https://doi.org/10.1177/00220345261438375) (_Journal of Dental Research_, 2026) · [The Mediating Role of Formal Social Engagement in the Relationship Between Oral Health and Depressive Symptoms](https://doi.org/10.1002/gps.70085) (_International Journal of Geriatric Psychiatry_, 2025) · [A Reciprocal Relationship between Formal and Informal Social Engagement and Handgrip Strength](https://doi.org/10.1159/000540344) (_Gerontology_, 2024)
 
-**Research question.** How do social engagement and health-related experiences reinforce—or undermine—one another in later life?
+## Social networks and their dynamics
 
-**Current focus.** One line of work examines oral health-related quality of life, formal social engagement, and depressive symptoms among older adults, with attention to gender differences and reciprocal processes.
+The third line treats social networks not as fixed traits but as trajectories. Using latent class and latent transition analysis with panel data from South Korea and Singapore, I map profiles of social connection and isolation, and follow how people move between them. In a two-wave study of older Singaporeans, more than half changed social isolation profile over time: lower education and financial insecurity predicted movement toward less supportive ties, while rising depressive symptoms predicted persistence in—or transition into—loneliness. Related studies identify widowhood as a turning point that reorganizes networks, with consequences for depressive symptoms, and link transitions between network profiles to outcomes as far-reaching as all-cause mortality.
 
-**Selected finding.** Oral health and depressive symptoms were reciprocally related, but depressive symptoms had the stronger effect on oral health. Formal social engagement partly mediated the pathway from oral health to depressive symptoms, highlighting the social dimension of oral health.
+**Selected work:** [Getting Lonely and Isolated? Transitions in Social Isolation Profiles Over Time](https://doi.org/10.1016/j.socnet.2025.12.005) (_Social Networks_, 2026) · [Stability and Changes in Social Network Profiles After Widowhood](https://doi.org/10.1002/psp.70231) (_Population, Space and Place_, 2026) · [Transitions between Social Network Profiles and Their Relation with All-cause Mortality](https://doi.org/10.1016/j.socscimed.2021.114617) (_Social Science & Medicine_, 2022)
 
-**Selected work:** [The Mediating Role of Formal Social Engagement in the Relationship Between Oral Health and Depressive Symptoms Among Older Adults in South Korea](https://doi.org/10.1002/gps.70085); [Oral Health-Related Quality of Life and Social Engagement: Gender Differences](https://doi.org/10.1177/00220345261438375).
+## Family caregiving
 
-### 3. Social networks
+The fourth line looks inside families caring for older adults, asking what makes caregiving sustainable. Caregiver well-being, this work shows, depends on more than the amount of care provided. In a dyadic study of family caregivers and care recipients, it was the caregiver's own loneliness—not the care recipient's—that was associated with caregiver burden. Other studies examine how care tasks are shared across family members, how caregivers' social isolation profiles relate to stress and burden, and how personal mastery and psychological resilience buffer the strains of caring for older adults with cognitive impairment.
 
-**Research question.** How do social networks change over time, and which life-course events move people toward connection, isolation, or more supportive ties?
+**Selected work:** [Exploring Loneliness in Family Caregiver–Care Recipient Dyads](https://doi.org/10.1111/ggi.70499) (_Geriatrics & Gerontology International_, 2026) · [Sharing in Caring: Family Caregiving Task-Sharing Patterns](https://doi.org/10.1093/geronb/gbae186) (_The Journals of Gerontology, Series B_, 2025) · [Stress and Loneliness among Family Caregivers of Older Persons with Cognitive Impairment](https://doi.org/10.1177/08982643241262374) (_Journal of Aging and Health_, 2025)
 
-**Current focus.** Rather than treating networks as fixed characteristics, I use longitudinal and person-centered methods to study network profiles and trajectories, including transitions after widowhood, changes in social isolation, and joint trajectories of network centrality and later-life cognitive function.
+## One agenda
 
-**Selected finding.** In a two-wave study of older Singaporeans, more than half changed social isolation profile over time. Lower education and financial insecurity predicted movement toward less supportive ties, while increases in depressive symptoms predicted persistence in—or transition into—loneliness. Widowhood is an important turning point in related network-transition work.
-
-**Selected work:** [Getting Lonely and Isolated?](https://doi.org/10.1016/j.socnet.2025.12.005); [Stability and Change in Social Network Profiles after Widowhood](https://doi.org/10.1002/psp.70231); [Transitions between Social Network Profiles and Their Relation with All-cause Mortality](https://doi.org/10.1016/j.socscimed.2021.114617).
-
-### 4. Family caregiving
-
-**Research question.** How are care responsibilities shared across spouses, adult children, and older parents—and what makes caregiving sustainable for families?
-
-**Current focus.** I study caregiver burden, loneliness, task sharing, intergenerational transfers, and the social resources available to families caring across generations. Current work extends this line to sandwich-generation families and the ways competing care demands affect well-being.
-
-**Selected finding.** Caregiver well-being depends on more than the amount of care provided. In one dyadic study, caregiver loneliness—rather than care-recipient loneliness—was associated with caregiver burden. Network structure, personal mastery or resilience, and the way care tasks are shared also shape well-being.
-
-**Selected work:** [Exploring Loneliness in Family Caregiver-Care Recipient Dyads](https://doi.org/10.1111/ggi.70499); [Sharing in Caring](https://doi.org/10.1093/geronb/gbae186); [Stress and Loneliness among Family Caregivers](https://doi.org/10.1177/08982643241262374).
-
-## How the projects fit together
-
-The four themes are parts of one broader agenda: trust and social capital shape the networks people can draw on; networks influence health and well-being; and health changes, widowhood, and caregiving can reorganize those networks. I use this connected perspective to study not only whether relationships matter, but also for whom, through which mechanisms, and how those relationships change over time.
+These four lines are parts of a single argument: trust and social capital shape the networks people can draw on; networks shape health and well-being; and health shocks, widowhood, and caregiving reorganize those networks in turn. Studying the pieces together makes it possible to see not only that relationships matter for aging well, but where in this cycle inequality enters—and where policy and practice might intervene.
 
 ## Data and methods
 
-Across projects, I combine comparative survey data—including ISSP—panel studies, social network measures, latent class and latent transition analysis, dyadic designs, and longitudinal models. See the [publications](/publications/) page for the full list of articles, chapters, and reports.
+Across projects, I combine national panel studies of older adults in South Korea and Singapore with cross-national surveys such as the ISSP, and pair social network and social capital measures with latent class and latent transition analysis, dyadic designs, and longitudinal models. See the [publications](/publications/) page for the full list of articles, chapters, and reports—and feel free to [get in touch](mailto:pildoosung@hanyang.ac.kr) about collaboration.

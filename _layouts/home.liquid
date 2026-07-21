@@ -1,27 +1,26 @@
 ---
 layout: default
 ---
-
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "@id": "{{ site.url }}/#person",
-  "name": "Pildoo Sung",
-  "url": "{{ site.url }}/",
-  "jobTitle": "Assistant Professor of Sociology",
-  "affiliation": {
-    "@type": "CollegeOrUniversity",
-    "name": "Hanyang University",
-    "url": "https://socio.hanyang.ac.kr/home"
-  },
-  "sameAs": [
-    "https://github.com/Pildoo",
-    "https://orcid.org/0000-0002-5730-6241",
-    "https://scholar.google.com/citations?user=zJTtOhYAAAAJ",
-    "https://socio.hanyang.ac.kr/home"
-  ]
-}
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "@id": "{{ site.url }}/#person",
+    "name": "Pildoo Sung",
+    "url": "{{ site.url }}/",
+    "jobTitle": "Assistant Professor of Sociology",
+    "affiliation": {
+      "@type": "CollegeOrUniversity",
+      "name": "Hanyang University",
+      "url": "https://socio.hanyang.ac.kr/home"
+    },
+    "sameAs": [
+      "https://github.com/Pildoo",
+      "https://orcid.org/0000-0002-5730-6241",
+      "https://scholar.google.com/citations?user=zJTtOhYAAAAJ",
+      "https://socio.hanyang.ac.kr/home"
+    ]
+  }
 </script>
 
 <style>
@@ -44,7 +43,9 @@ layout: default
     margin: 0 auto 1.4rem;
     border: 4px solid var(--global-bg-color);
     border-radius: 50%;
-    box-shadow: 0 0 0 2px var(--global-theme-color), 0 10px 30px rgba(0, 0, 0, 0.13);
+    box-shadow:
+      0 0 0 2px var(--global-theme-color),
+      0 10px 30px rgba(0, 0, 0, 0.13);
     object-fit: cover;
   }
 
@@ -84,7 +85,10 @@ layout: default
     color: var(--global-theme-color);
     font-size: 1.5rem;
     text-decoration: none;
-    transition: background-color 160ms ease, color 160ms ease, transform 160ms ease;
+    transition:
+      background-color 160ms ease,
+      color 160ms ease,
+      transform 160ms ease;
   }
 
   .pildoo-social-link:hover {
@@ -106,7 +110,10 @@ layout: default
     color: var(--global-text-color);
     font-size: 0.92rem;
     text-decoration: none;
-    transition: border-color 160ms ease, color 160ms ease, transform 160ms ease;
+    transition:
+      border-color 160ms ease,
+      color 160ms ease,
+      transform 160ms ease;
   }
 
   .pildoo-nav a:hover {
@@ -191,25 +198,29 @@ layout: default
         href="{{ site.data.socials.cv_pdf | relative_url }}"
         title="CV"
         aria-label="CV"
-      ><i class="ai ai-cv" aria-hidden="true"></i></a>
+        ><i class="ai ai-cv" aria-hidden="true"></i
+      ></a>
       <a
         class="pildoo-social-link"
         href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"
         title="Google Scholar"
         aria-label="Google Scholar"
-      ><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+        ><i class="ai ai-google-scholar" aria-hidden="true"></i
+      ></a>
       <a
         class="pildoo-social-link"
         href="https://orcid.org/{{ site.data.socials.orcid_id }}"
         title="ORCID"
         aria-label="ORCID"
-      ><i class="ai ai-orcid" aria-hidden="true"></i></a>
+        ><i class="ai ai-orcid" aria-hidden="true"></i
+      ></a>
       <a
         class="pildoo-social-link"
         href="mailto:{{ site.data.socials.email }}"
         title="Email"
         aria-label="Email"
-      ><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+        ><i class="fa-solid fa-envelope" aria-hidden="true"></i
+      ></a>
     </div>
 
     <nav class="pildoo-nav" aria-label="Homepage sections">
@@ -219,8 +230,8 @@ layout: default
     </nav>
 
     <div class="pildoo-keywords" aria-label="Research areas">
-      <span class="pildoo-keyword">Social capital/trust</span>
-      <span class="pildoo-keyword">Health/well-being</span>
+      <span class="pildoo-keyword">Social capital &amp; trust</span>
+      <span class="pildoo-keyword">Health &amp; well-being</span>
       <span class="pildoo-keyword">Social networks</span>
       <span class="pildoo-keyword">Family caregiving</span>
     </div>
