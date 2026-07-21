@@ -1,8 +1,9 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/rendercv/rendercv_output/Pildoo_Sung_CV.pdf # auto-generated from _data/cv.yml
-email: pildoosung@gmail.com # your email address
+cv_pdf: /assets/pdf/Pildoo_Sung_CV_2026.pdf
+email: pildoosung@hanyang.ac.kr # your email address
+github_username: Pildoo
 orcid_id: 0000-0002-5730-6241 # your ORCID iD
 rss_icon: true # comment this line to hide the RSS icon
 scholar_userid: zJTtOhYAAAAJ # your Google Scholar ID

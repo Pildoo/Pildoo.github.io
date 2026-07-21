@@ -5,7 +5,7 @@ cv:
   email: pildoosung@hanyang.ac.kr
   photo:
   phone:
-  website:
+  website: pildoosung.com
   social_networks:
     - network: ORCID
       username: 0000-0002-5730-6241
@@ -56,30 +56,13 @@ cv:
         details: Social Capital, Social Participation, Social Isolation, Loneliness, Social Gerontology, Caregiving, Longitudinal Analysis
 
     Publications:
-      - title: Associating Multimorbidity Patterns with Healthcare Utilization and Unmet Healthcare Needs among Older Koreans Living Alone
-        authors:
-          - H. Yun
-          - B. Son
-          - "*Pildoo Sung*"
-        journal: Geriatrics & Gerontology International
-        date: 2026
-        doi: 10.1111/ggi.70663
-
-      - title: "Lonely by Comparison: Understanding Loneliness Through Network Alter Status, Ego Status, and Regional Status"
-        authors:
-          - "*Pildoo Sung*"
-          - W. Sung
-          - H. H. S. Kim
-        journal: Journal of Health Psychology
-        date: 2026
-        summary: Accepted
-
       - title: "Exploring Loneliness in Family Caregiver–Care Recipient Dyads: Implications for Caregiver Burden"
         authors:
           - "*Pildoo Sung*"
           - A. Chan
         journal: Geriatrics & Gerontology International
         date: 2026
+        summary: Accepted
         doi: 10.1111/ggi.70499
 
       - title: "Oral Health-Related Quality of Life and Social Engagement: Gender Differences"
@@ -90,6 +73,7 @@ cv:
           - S. H. Kang
         journal: Journal of Dental Research
         date: 2026
+        summary: Accepted
         doi: 10.1177/00220345261438375
 
       - title: Who Keeps on Learning? Understanding Heterogeneity in Resource Profiles of Older Learners to Promote Recurrent Engagement in Learning
@@ -108,6 +92,7 @@ cv:
           - J. Lim-Soh
         journal: Population, Space and Place
         date: 2026
+        summary: Accepted
         doi: 10.1002/psp.70231
 
       - title: "Getting Lonely and Isolated? Transitions in Social Isolation Profiles Over Time and Factors Associated with Them Among Older Adults"
