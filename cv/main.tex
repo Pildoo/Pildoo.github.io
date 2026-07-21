@@ -1,0 +1,46 @@
+\documentclass[letterpaper,10pt]{article}
+
+% folders
+\newcommand{\tffldr}{sections/}
+
+\input{preamble.tex}
+
+\begin{document}
+\setlength{\leftskip}{\mg}
+
+% Header
+{\huge Pildoo Sung}
+\vspace{0.5em}
+
+% Contact information
+\begin{minipage}[t]{0.55\textwidth}
+    \begin{flushleft}
+        \href{https://socio.hanyang.ac.kr/home}{Department of Sociology} \\
+        Hanyang University \\
+        203 College of Social Sciences \\
+        222, Wangsimni-ro, Seongdong-gu, \\
+        Seoul, Republic of Korea
+    \end{flushleft}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.40\textwidth}
+    \begin{flushleft}
+        \textcolor{itemcat}{\faEnvelope[regular]}~\texttt{\href{mailto:\email}{\email}} \\
+        \textcolor{itemcat}{\faIcon{orcid}}~\texttt{\href{https://orcid.org/0000-0002-5730-6241}{0000-0002-5730-6241}} \\
+        \textcolor{itemcat}{\faHome[regular]}~\texttt{\href{https://pildoo.github.io}{pildoo.github.io}}
+    \end{flushleft}
+\end{minipage}
+
+% Content sections
+\input{\tffldr academic_position.tex}
+\input{\tffldr education.tex}
+\input{\tffldr research_interest.tex}
+\input{\tffldr publication.tex}
+\input{\tffldr work_in_progress.tex}
+\input{\tffldr presentation.tex}
+\input{\tffldr honor_grant_award_noamount.tex}
+\input{\tffldr teaching_experience.tex}
+\input{\tffldr professional_service.tex}
+\input{\tffldr professional_organization_membership.tex}
+
+\end{document}
