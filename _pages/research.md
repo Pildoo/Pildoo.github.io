@@ -25,15 +25,15 @@ The current projects build on four lines of published research.
 
 ### Social network typology
 
-Using latent class and latent transition analysis, I classify older adults' networks into types and follow how people move between them—after widowhood, during the pandemic, and over ordinary time—with consequences ranging from depressive symptoms to all-cause mortality.
+Using latent class and latent transition analysis, I classify older adults' networks into types and follow how people move between them—after widowhood, during the pandemic, and over ordinary time—with consequences ranging from depressive symptoms to all-cause mortality. Newly accepted work asks a complementary question: whether loneliness also depends on the status of the people older adults are tied to, their own status, and the standing of the region around them (_Journal of Health Psychology_, accepted).
 
 **Selected work:** [Getting Lonely and Isolated?](https://doi.org/10.1016/j.socnet.2025.12.005) (_Social Networks_, 2026) · [Stability and Changes in Social Network Profiles After Widowhood](https://doi.org/10.1002/psp.70231) (_Population, Space and Place_, 2026) · [Transitions between Social Network Profiles and All-cause Mortality](https://doi.org/10.1016/j.socscimed.2021.114617) (_Social Science & Medicine_, 2022)
 
 ### Formal and informal social engagement and health
 
-This line traces reciprocal relationships between social engagement and later-life health—cognitive function, depressive symptoms, handgrip strength, and oral health—treating engagement and health as processes that continually shape each other.
+This line traces reciprocal relationships between social engagement and later-life health—cognitive function, depressive symptoms, handgrip strength, and oral health—treating engagement and health as processes that continually shape each other. Recent work in this line maps patterns of multimorbidity among older Koreans living alone and links them to healthcare use and unmet needs.
 
-**Selected work:** [Oral Health-Related Quality of Life and Social Engagement](https://doi.org/10.1177/00220345261438375) (_Journal of Dental Research_, 2026) · [Formal Social Engagement, Oral Health, and Depressive Symptoms](https://doi.org/10.1002/gps.70085) (_International Journal of Geriatric Psychiatry_, 2025) · [Social Engagement and Handgrip Strength](https://doi.org/10.1159/000540344) (_Gerontology_, 2024)
+**Selected work:** [Multimorbidity Patterns, Healthcare Utilization, and Unmet Needs among Older Koreans Living Alone](https://doi.org/10.1111/ggi.70663) (_Geriatrics & Gerontology International_, 2026) · [Oral Health-Related Quality of Life and Social Engagement](https://doi.org/10.1177/00220345261438375) (_Journal of Dental Research_, 2026) · [Formal Social Engagement, Oral Health, and Depressive Symptoms](https://doi.org/10.1002/gps.70085) (_International Journal of Geriatric Psychiatry_, 2025) · [Social Engagement and Handgrip Strength](https://doi.org/10.1159/000540344) (_Gerontology_, 2024)
 
 ### Family caregiving
 
