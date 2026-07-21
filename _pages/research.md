@@ -9,6 +9,21 @@ description: Sociocentric network analysis of aging communities, building on res
 
 My research examines how social relationships shape health and well-being in later life—and how aging, widowhood, and care responsibilities reshape those relationships in return. I work mainly with panel data on older adults in South Korea and Singapore, combining social network measures with latent class and transition models, dyadic designs, and longitudinal analysis.
 
+<style>
+  /* Scoped to the research page: compact section (h2) and theme (h3) headings */
+  .post h2 {
+    font-size: 1.35rem;
+    margin-top: 2rem;
+  }
+
+  .post h3 {
+    font-size: 1.08rem;
+    font-weight: 600;
+    margin-top: 1.3rem;
+    margin-bottom: 0.4rem;
+  }
+</style>
+
 ## Current research: sociocentric network analysis
 
 My current projects use complete—sociocentric—network data, which repeatedly enumerate who names whom among the older residents of rural Korean townships. Because everyone in the community is observed, these data can separate the ties people report from the nominations they receive—something egocentric surveys cannot do. Ongoing studies ask:
