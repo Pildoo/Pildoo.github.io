@@ -491,7 +491,8 @@ description: How social relationships shape health and well-being in later lifeâ
           <h3>Selection or influence</h3>
           <p>
             When does similarity between connected villagers reflect choosing similar others, and when does it reflect influence as networks and
-            behavior co-evolve?
+            behavior co-evolve? Stochastic actor-oriented models compare visible behaviorsâ€”social participation, drinking, and smokingâ€”with less
+            visible states such as depressive symptoms.
           </p>
         </div>
       </article>
@@ -538,7 +539,9 @@ description: How social relationships shape health and well-being in later lifeâ
         <h3>Social network typology</h3>
         <p class="foundation-summary">
           I use latent class and transition analysis to identify older adults' network types and trace movement between themâ€”after widowhood, during
-          the pandemic, and over ordinary timeâ€”with consequences from depressive symptoms to mortality.
+          the pandemic, and over ordinary timeâ€”with consequences from depressive symptoms to mortality. Newly accepted work extends this lens to
+          whether loneliness depends on the status of one's ties, one's own status, and the surrounding region (<em>Journal of Health Psychology</em>,
+          accepted).
         </p>
         <ul class="publication-list" aria-label="Selected work on social network typology">
           <li>
@@ -561,7 +564,8 @@ description: How social relationships shape health and well-being in later lifeâ
         <h3>Social engagement and health</h3>
         <p class="foundation-summary">
           This work treats engagement and health as processes that continually shape each other, spanning cognitive function, depressive symptoms,
-          handgrip strength, oral health, multimorbidity, and healthcare needs.
+          handgrip strength, and oral health. Recent work also maps multimorbidity among older Koreans living alone and links it to healthcare use and
+          unmet needs.
         </p>
         <ul class="publication-list" aria-label="Selected work on social engagement and health">
           <li>
