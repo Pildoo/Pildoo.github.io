@@ -231,7 +231,7 @@ selected_papers: true
     <div class="pildoo-keywords" aria-label="Research areas">
       <span class="pildoo-keyword">Social capital &amp; trust</span>
       <span class="pildoo-keyword">Health &amp; well-being</span>
-      <span class="pildoo-keyword">Social networks/loneliness</span>
+      <span class="pildoo-keyword">Social networks &amp; loneliness</span>
       <span class="pildoo-keyword">Family caregiving</span>
     </div>
 
