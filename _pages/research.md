@@ -619,6 +619,12 @@ description: How social relationships shape health and well-being in later life�
         </p>
         <ul class="publication-list" aria-label="Selected work on trust and social capital">
           <li>
+            <a href="{{ '/publications/#sung2026lonelycomparison' | relative_url }}"
+              >Lonely by Comparison: Understanding Loneliness Through Network Alter Status, Ego Status, and Regional Status</a
+            >
+            <span class="publication-meta">Journal of Health Psychology · 2026 · Accepted</span>
+          </li>
+          <li>
             <a href="https://doi.org/10.1177/02685809241251770">Generalized Trust, Social Networks, and Social Resources across 30 Countries</a>
             <span class="publication-meta">International Sociology · 2024</span>
           </li>
