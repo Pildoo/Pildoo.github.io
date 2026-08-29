@@ -3,7 +3,7 @@ layout: page
 permalink: /teaching/
 title: teaching
 nav: true
-nav_order: 4
+nav_order: 5
 description: University teaching and methods workshops connecting sociological theory, empirical research, health, aging, and inequality.
 ---
 

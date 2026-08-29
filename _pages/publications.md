@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 nav: true
-nav_order: 3
+nav_order: 4
 description: Peer-reviewed articles, book chapters, encyclopedia entries, and research reports.
 ---
 

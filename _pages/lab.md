@@ -1,0 +1,799 @@
+---
+layout: page
+permalink: /lab/
+title: lab
+nav: true
+nav_order: 3
+description: The Social Connections & Health Lab at Hanyang University studies how social relationships shape health and well-being in later life.
+---
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ResearchOrganization",
+    "@id": "{{ site.url }}/lab/#organization",
+    "name": "Social Connections & Health Lab",
+    "alternateName": "사회관계와 건강 연구실",
+    "url": "{{ site.url }}/lab/",
+    "parentOrganization": {
+      "@type": "CollegeOrUniversity",
+      "name": "Hanyang University",
+      "url": "https://socio.hanyang.ac.kr/home"
+    },
+    "member": {
+      "@type": "Person",
+      "@id": "{{ site.url }}/#person",
+      "name": "Pildoo Sung"
+    },
+    "knowsAbout": ["social networks", "social gerontology", "medical sociology", "loneliness", "family caregiving", "longitudinal methods"]
+  }
+</script>
+
+<style>
+  .post-header {
+    display: none;
+  }
+
+  .lab-page {
+    --lab-muted: color-mix(in srgb, var(--global-text-color) 68%, transparent);
+    --lab-border: color-mix(in srgb, var(--global-text-color) 13%, transparent);
+    --lab-soft: color-mix(in srgb, var(--global-theme-color) 6%, var(--global-bg-color));
+    --lab-card: color-mix(in srgb, var(--global-text-color) 2.5%, var(--global-bg-color));
+  }
+
+  .lab-hero {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 3.5rem;
+    padding: clamp(2rem, 6vw, 4rem);
+    border: 1px solid color-mix(in srgb, var(--global-theme-color) 18%, transparent);
+    border-radius: 1.25rem;
+    background:
+      radial-gradient(circle at 92% 8%, color-mix(in srgb, var(--global-theme-color) 15%, transparent) 0, transparent 34%),
+      linear-gradient(145deg, color-mix(in srgb, var(--global-theme-color) 8%, var(--global-bg-color)), var(--global-bg-color) 72%);
+  }
+
+  .lab-hero::before {
+    position: absolute;
+    top: 1.25rem;
+    left: 1.25rem;
+    width: 2.5rem;
+    height: 0.2rem;
+    border-radius: 999px;
+    background: var(--global-theme-color);
+    content: '';
+  }
+
+  .lab-eyebrow {
+    display: block;
+    margin-bottom: 0.9rem;
+    color: var(--global-theme-color);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .lab-hero h1 {
+    max-width: 780px;
+    margin: 0 0 0.5rem;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: clamp(2.2rem, 6.4vw, 4.2rem);
+    font-weight: 500;
+    letter-spacing: -0.045em;
+    line-height: 1.02;
+  }
+
+  .lab-hero-ko {
+    margin: 0 0 1.4rem;
+    color: var(--lab-muted);
+    font-size: clamp(1rem, 2.4vw, 1.15rem);
+    letter-spacing: -0.01em;
+  }
+
+  .lab-hero-lead {
+    max-width: 660px;
+    margin: 0;
+    font-size: clamp(1.02rem, 2vw, 1.16rem);
+    line-height: 1.7;
+  }
+
+  .lab-hero-lead .lab-ko {
+    margin-top: 0.6rem;
+  }
+
+  .lab-ko {
+    display: block;
+    color: var(--lab-muted);
+    font-size: 0.88rem;
+    line-height: 1.7;
+    word-break: keep-all;
+  }
+
+  .lab-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem;
+    margin-top: 1.8rem;
+  }
+
+  .lab-button {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.65rem;
+    padding: 0.55rem 1rem;
+    border: 1px solid var(--global-theme-color);
+    border-radius: 999px;
+    color: var(--global-theme-color);
+    font-size: 0.84rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition:
+      background-color 160ms ease,
+      color 160ms ease,
+      transform 160ms ease;
+  }
+
+  .lab-button--primary {
+    background: var(--global-theme-color);
+    color: var(--global-bg-color);
+  }
+
+  .lab-button:hover {
+    background: var(--global-theme-color);
+    color: var(--global-bg-color);
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+
+  .lab-facts {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1px;
+    overflow: hidden;
+    margin-bottom: 3.5rem;
+    border: 1px solid var(--lab-border);
+    border-radius: 0.9rem;
+    background: var(--lab-border);
+  }
+
+  .lab-fact {
+    padding: 1rem 1.1rem;
+    background: var(--global-bg-color);
+  }
+
+  .lab-fact span {
+    display: block;
+    margin-bottom: 0.25rem;
+    color: var(--lab-muted);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+  }
+
+  .lab-fact strong {
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 0.98rem;
+    font-weight: 500;
+    line-height: 1.35;
+  }
+
+  .lab-fact a {
+    color: inherit;
+    text-decoration-color: color-mix(in srgb, var(--global-theme-color) 40%, transparent);
+    text-underline-offset: 0.2em;
+  }
+
+  .lab-fact a:hover {
+    color: var(--global-theme-color);
+  }
+
+  .lab-section {
+    margin-top: 4rem;
+    scroll-margin-top: 6rem;
+  }
+
+  .lab-section-heading {
+    display: grid;
+    grid-template-columns: 8rem minmax(0, 1fr);
+    gap: 1.5rem;
+    align-items: baseline;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--lab-border);
+  }
+
+  .lab-kicker {
+    color: var(--global-theme-color);
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+
+  .lab-section-heading h2 {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: clamp(1.7rem, 4vw, 2.35rem);
+    font-weight: 500;
+    letter-spacing: -0.025em;
+    line-height: 1.15;
+  }
+
+  .lab-section-heading .lab-ko {
+    margin-top: 0.35rem;
+    font-size: 0.92rem;
+  }
+
+  .lab-copy {
+    max-width: 730px;
+    margin: 0 0 1.75rem 9.5rem;
+    color: var(--lab-muted);
+    line-height: 1.75;
+  }
+
+  .lab-copy .lab-ko {
+    margin-top: 0.7rem;
+    padding-top: 0.7rem;
+    border-top: 1px solid var(--lab-border);
+    font-size: 0.86rem;
+  }
+
+  .lab-question-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .lab-question-card,
+  .lab-panel,
+  .lab-track {
+    border: 1px solid var(--lab-border);
+    border-radius: 0.9rem;
+    background: var(--lab-card);
+    box-shadow: 0 10px 30px color-mix(in srgb, var(--global-text-color) 4%, transparent);
+  }
+
+  .lab-question-card {
+    display: grid;
+    grid-template-columns: 2.25rem minmax(0, 1fr);
+    gap: 0.8rem;
+    padding: 1.25rem;
+  }
+
+  .lab-question-card:last-child {
+    grid-column: 1 / -1;
+  }
+
+  .lab-question-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.1rem;
+    height: 2.1rem;
+    border-radius: 50%;
+    background: var(--lab-soft);
+    color: var(--global-theme-color);
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 0.84rem;
+  }
+
+  .lab-question-card h3 {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.08rem;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  .lab-question-card h3 .lab-ko {
+    margin-top: 0.15rem;
+    font-family: inherit;
+    font-size: 0.82rem;
+    font-weight: 400;
+  }
+
+  .lab-question-card p {
+    margin: 0.45rem 0 0;
+    color: var(--lab-muted);
+    font-size: 0.92rem;
+    line-height: 1.65;
+  }
+
+  .lab-panel-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .lab-panel {
+    padding: clamp(1.25rem, 3vw, 1.5rem);
+  }
+
+  .lab-panel h3 {
+    margin: 0 0 0.9rem;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.12rem;
+    font-weight: 600;
+  }
+
+  .lab-panel h3 .lab-ko {
+    margin-top: 0.1rem;
+    font-family: inherit;
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+
+  .lab-panel-copy {
+    margin: 0;
+    color: var(--lab-muted);
+    font-size: 0.9rem;
+    line-height: 1.65;
+  }
+
+  .lab-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .lab-list li + li {
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--lab-border);
+  }
+
+  .lab-list strong {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+
+  .lab-list span {
+    display: block;
+    margin-top: 0.15rem;
+    color: var(--lab-muted);
+    font-size: 0.82rem;
+    line-height: 1.55;
+  }
+
+  .lab-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 1rem;
+  }
+
+  .lab-chip {
+    padding: 0.3rem 0.65rem;
+    border-radius: 999px;
+    background: var(--lab-soft);
+    color: var(--lab-muted);
+    font-size: 0.78rem;
+  }
+
+  .lab-pub-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .lab-pub-list li {
+    padding: 0.9rem 0;
+    border-bottom: 1px solid var(--lab-border);
+  }
+
+  .lab-pub-list li:first-child {
+    padding-top: 0;
+  }
+
+  .lab-pub-list a {
+    color: var(--global-text-color);
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.45;
+    text-decoration-color: color-mix(in srgb, var(--global-theme-color) 35%, transparent);
+    text-underline-offset: 0.2em;
+  }
+
+  .lab-pub-list a:hover {
+    color: var(--global-theme-color);
+  }
+
+  .lab-pub-meta {
+    display: block;
+    margin-top: 0.2rem;
+    color: var(--lab-muted);
+    font-size: 0.8rem;
+  }
+
+  .lab-track-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .lab-track {
+    padding: clamp(1.25rem, 3vw, 1.5rem);
+  }
+
+  .lab-track-label {
+    display: block;
+    margin-bottom: 0.6rem;
+    color: var(--global-theme-color);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .lab-track h3 {
+    margin: 0 0 0.55rem;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: 1.08rem;
+    font-weight: 600;
+  }
+
+  .lab-track p {
+    margin: 0;
+    color: var(--lab-muted);
+    font-size: 0.9rem;
+    line-height: 1.65;
+  }
+
+  .lab-cta {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+    padding: clamp(1.4rem, 4vw, 2rem);
+    border-radius: 0.9rem;
+    background: var(--lab-soft);
+  }
+
+  .lab-cta p {
+    max-width: 570px;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-size: clamp(1.08rem, 2.5vw, 1.3rem);
+    line-height: 1.5;
+  }
+
+  .lab-cta-actions {
+    display: flex;
+    flex-shrink: 0;
+    gap: 0.55rem;
+  }
+
+  @media (max-width: 860px) {
+    .lab-panel-grid,
+    .lab-track-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 760px) {
+    .lab-section-heading {
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
+    }
+
+    .lab-copy {
+      margin-left: 0;
+    }
+
+    .lab-cta {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 560px) {
+    .lab-hero {
+      border-radius: 0.9rem;
+    }
+
+    .lab-facts,
+    .lab-question-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .lab-fact + .lab-fact {
+      border-top: 1px solid var(--lab-border);
+    }
+
+    .lab-question-card:last-child {
+      grid-column: auto;
+    }
+
+    .lab-cta-actions {
+      flex-wrap: wrap;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .lab-button {
+      transition: none;
+    }
+  }
+</style>
+
+<div class="lab-page">
+  <header class="lab-hero">
+    <span class="lab-eyebrow">Hanyang University · Department of Sociology</span>
+    <h1>Social Connections &amp; Health Lab</h1>
+    <p class="lab-hero-ko" lang="ko">한양대학교 사회학과 · 사회관계와 건강 연구실</p>
+    <p class="lab-hero-lead">
+      We study how social relationships shape health and well-being in later life—and how aging, widowhood, and caregiving reshape those relationships
+      in return.
+      <span class="lab-ko" lang="ko"
+        >사회적 관계가 노년기의 건강과 삶의 질을 어떻게 형성하는지, 그리고 노화·사별·돌봄이 다시 그 관계를 어떻게 바꾸는지를 연구합니다.</span
+      >
+    </p>
+    <div class="lab-actions">
+      <a class="lab-button lab-button--primary" href="{{ '/lab/join/' | relative_url }}">Join the lab · 연구실 지원</a>
+      <a class="lab-button" href="#research">Research</a>
+      <a class="lab-button" href="mailto:pildoosung@hanyang.ac.kr">Contact</a>
+    </div>
+  </header>
+
+  <div class="lab-facts" aria-label="Lab at a glance">
+    <div class="lab-fact">
+      <span>Principal investigator</span>
+      <strong><a href="{{ '/' | relative_url }}">Pildoo Sung</a></strong>
+    </div>
+    <div class="lab-fact">
+      <span>Based in</span>
+      <strong>Seoul, South Korea</strong>
+    </div>
+    <div class="lab-fact">
+      <span>Fields</span>
+      <strong>Social gerontology · Networks · Medical sociology</strong>
+    </div>
+  </div>
+
+  <section id="research" class="lab-section" aria-labelledby="lab-research-title">
+    <div class="lab-section-heading">
+      <span class="lab-kicker">Current program</span>
+      <div>
+        <h2 id="lab-research-title">What we work on</h2>
+        <span class="lab-ko" lang="ko">연구 주제</span>
+      </div>
+    </div>
+    <p class="lab-copy">
+      Our current program uses sociocentric—whole-community—network data that repeatedly record who names whom among older residents of rural Korean
+      townships. Because everyone in the community is observed, we can separate the ties people report from the nominations they receive, which
+      egocentric surveys cannot do.
+      <span class="lab-ko" lang="ko"
+        >현재 연구실의 주요 과제는 농촌 지역 노인 전수를 대상으로 “누가 누구를 지목했는가”를 반복 조사한 완전연결망(sociocentric) 자료를 활용합니다.
+        지역사회 구성원 전체를 관찰하기 때문에, 본인이 보고한 관계와 다른 사람들로부터 받은 지목을 구분할 수 있습니다.</span
+      >
+    </p>
+
+    <div class="lab-question-grid">
+      <article class="lab-question-card">
+        <span class="lab-question-number" aria-hidden="true">01</span>
+        <div>
+          <h3>Being chosen and loneliness<span class="lab-ko" lang="ko">받는 지목과 외로움</span></h3>
+          <p>
+            Do the nominations older adults receive—especially from non-kin—protect against later loneliness beyond the ties they name themselves, and
+            does that protection differ in advanced old age?
+          </p>
+        </div>
+      </article>
+
+      <article class="lab-question-card">
+        <span class="lab-question-number" aria-hidden="true">02</span>
+        <div>
+          <h3>Selection or influence<span class="lab-ko" lang="ko">선택인가 영향인가</span></h3>
+          <p>
+            When does similarity between connected villagers reflect choosing similar others, and when does it reflect influence? Stochastic
+            actor-oriented models compare visible behaviors—social participation, drinking, smoking—with less visible states such as depressive
+            symptoms as networks and behavior co-evolve.
+          </p>
+        </div>
+      </article>
+
+      <article class="lab-question-card">
+        <span class="lab-question-number" aria-hidden="true">03</span>
+        <div>
+          <h3>From teeth to ties<span class="lab-ko" lang="ko">구강건강에서 관계망으로</span></h3>
+          <p>How does tooth loss change the discussion nominations older adults receive, and what does that mean for later cognitive function?</p>
+        </div>
+      </article>
+
+      <article class="lab-question-card">
+        <span class="lab-question-number" aria-hidden="true">04</span>
+        <div>
+          <h3>Network trajectories<span class="lab-ko" lang="ko">관계망 궤적</span></h3>
+          <p>How do received and sent ties change across survey waves, and how are those long-run trajectories linked to cognitive aging?</p>
+        </div>
+      </article>
+
+      <article class="lab-question-card">
+        <span class="lab-question-number" aria-hidden="true">05</span>
+        <div>
+          <h3>Cultural holes<span class="lab-ko" lang="ko">문화적 구조적 공백</span></h3>
+          <p>
+            What does it mean for well-being when older adults bridge culturally dissimilar people who are not otherwise connected? This project builds
+            culturally weighted measures of brokerage to find out.
+          </p>
+        </div>
+      </article>
+    </div>
+
+  </section>
+
+  <section id="methods" class="lab-section" aria-labelledby="lab-methods-title">
+    <div class="lab-section-heading">
+      <span class="lab-kicker">Toolkit</span>
+      <div>
+        <h2 id="lab-methods-title">Data and methods</h2>
+        <span class="lab-ko" lang="ko">사용하는 자료와 방법</span>
+      </div>
+    </div>
+    <p class="lab-copy">
+      We work with long-running Korean panel studies and cross-national surveys, and we treat methods training as part of the lab's everyday work.
+      Members learn the tools on live projects rather than in the abstract.
+      <span class="lab-ko" lang="ko"
+        >국내 장기 패널조사와 국제 비교조사 자료를 함께 사용하며, 방법론 훈련을 연구실 일상의 일부로 봅니다. 진행 중인 연구에 참여하면서 분석 방법을
+        익힙니다.</span
+      >
+    </p>
+
+    <div class="lab-panel-grid">
+      <article class="lab-panel">
+        <h3>Data<span class="lab-ko" lang="ko">자료</span></h3>
+        <ul class="lab-list">
+          <li>
+            <strong>KSHAP</strong>
+            <span>Whole-community network panels of older adults in rural Korean townships—the backbone of our sociocentric work.</span>
+          </li>
+          <li>
+            <strong>KLoSA</strong>
+            <span>Korean Longitudinal Study of Ageing: a nationally representative panel of older Koreans.</span>
+          </li>
+          <li>
+            <strong>Other panels and surveys</strong>
+            <span>KLoEE and SAFETRIP, plus cross-national surveys such as the ISSP and CFPS for comparative work.</span>
+          </li>
+        </ul>
+      </article>
+
+      <article class="lab-panel">
+        <h3>Methods<span class="lab-ko" lang="ko">분석 방법</span></h3>
+        <ul class="lab-list">
+          <li>
+            <strong>Network models</strong>
+            <span>Stochastic actor-oriented models for the co-evolution of networks and behavior, plus brokerage and centrality measures.</span>
+          </li>
+          <li>
+            <strong>Typologies and change</strong>
+            <span>Latent class and latent transition analysis, and group-based trajectory modeling.</span>
+          </li>
+          <li>
+            <strong>Longitudinal and dyadic designs</strong>
+            <span>Multi-wave panel models, fixed and random effects, and caregiver–care recipient dyadic models.</span>
+          </li>
+        </ul>
+      </article>
+
+      <article class="lab-panel">
+        <h3>Software<span class="lab-ko" lang="ko">분석 도구</span></h3>
+        <p class="lab-panel-copy">
+          Most analysis runs in Stata and R, with Mplus for latent variable models. New members are not expected to arrive fluent in all three.
+        </p>
+        <div class="lab-chips" aria-label="Software used in the lab">
+          <span class="lab-chip">Stata</span>
+          <span class="lab-chip">R · RSiena</span>
+          <span class="lab-chip">Mplus</span>
+          <span class="lab-chip">Git</span>
+        </div>
+      </article>
+    </div>
+
+  </section>
+
+  <section id="publications" class="lab-section" aria-labelledby="lab-publications-title">
+    <div class="lab-section-heading">
+      <span class="lab-kicker">Output</span>
+      <div>
+        <h2 id="lab-publications-title">Recent work</h2>
+        <span class="lab-ko" lang="ko">최근 논문</span>
+      </div>
+    </div>
+    <p class="lab-copy">
+      A selection of recent articles across the lab's four lines of work—network typologies, social engagement and health, family caregiving, and trust
+      and social capital.
+      <span class="lab-ko" lang="ko">연결망 유형, 사회참여와 건강, 가족 돌봄, 신뢰와 사회자본의 네 갈래에서 최근 발표한 논문들입니다.</span>
+    </p>
+
+    <ul class="lab-pub-list">
+      <li>
+        <a href="https://doi.org/10.1016/j.socnet.2025.12.005">Getting Lonely and Isolated? Transitions in Social Isolation Profiles Over Time</a>
+        <span class="lab-pub-meta">Social Networks · 2026</span>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1002/psp.70231">Stability and Changes in Social Network Profiles After Widowhood</a>
+        <span class="lab-pub-meta">Population, Space and Place · 2026</span>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1177/00220345261438375">Oral Health-Related Quality of Life and Social Engagement: Gender Differences</a>
+        <span class="lab-pub-meta">Journal of Dental Research · 2026</span>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1111/ggi.70663"
+          >Associating Multimorbidity Patterns with Healthcare Utilization and Unmet Needs among Older Koreans Living Alone</a
+        >
+        <span class="lab-pub-meta">Geriatrics &amp; Gerontology International · 2026</span>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1111/ggi.70499">Exploring Loneliness in Family Caregiver–Care Recipient Dyads</a>
+        <span class="lab-pub-meta">Geriatrics &amp; Gerontology International · 2026</span>
+      </li>
+      <li>
+        <a href="https://doi.org/10.1093/geronb/gbae186">Sharing in Caring: Family Caregiving Task-Sharing Patterns for Older Adults</a>
+        <span class="lab-pub-meta">The Journals of Gerontology, Series B · 2025</span>
+      </li>
+    </ul>
+
+    <div class="lab-actions">
+      <a class="lab-button" href="{{ '/publications/' | relative_url }}">All publications</a>
+      <a class="lab-button" href="{{ '/research/' | relative_url }}">Research program</a>
+    </div>
+
+  </section>
+
+  <section id="join" class="lab-section" aria-labelledby="lab-join-title">
+    <div class="lab-section-heading">
+      <span class="lab-kicker">Joining</span>
+      <div>
+        <h2 id="lab-join-title">Work with us</h2>
+        <span class="lab-ko" lang="ko">대학원생·학부연구생 모집</span>
+      </div>
+    </div>
+    <p class="lab-copy">
+      We welcome students who want to ask careful questions about aging, health, and social relationships—and who are willing to learn the methods
+      those questions require. Curiosity and persistence matter more than a finished skill set.
+      <span class="lab-ko" lang="ko"
+        >노화, 건강, 사회적 관계에 대해 신중하게 질문하고 그 질문에 필요한 방법을 배우려는 학생을 환영합니다. 이미 갖춘 기술보다 호기심과 끈기가 더
+        중요합니다.</span
+      >
+    </p>
+
+    <div class="lab-track-grid">
+      <article class="lab-track">
+        <span class="lab-track-label">Doctoral</span>
+        <h3 lang="ko">박사과정</h3>
+        <p>Develop an independent line of work within the lab's program, from research design through publication.</p>
+      </article>
+
+      <article class="lab-track">
+        <span class="lab-track-label">Master's</span>
+        <h3 lang="ko">석사과정</h3>
+        <p>Build a foundation in panel and network analysis while contributing to an ongoing project and a thesis of your own.</p>
+      </article>
+
+      <article class="lab-track">
+        <span class="lab-track-label">Undergraduate</span>
+        <h3 lang="ko">학부 연구생</h3>
+        <p>Join for a semester or more to learn data management and analysis alongside graduate members.</p>
+      </article>
+    </div>
+
+    <div class="lab-actions">
+      <a class="lab-button lab-button--primary" href="{{ '/lab/join/' | relative_url }}">How to apply · 지원 방법</a>
+    </div>
+
+  </section>
+
+  <aside class="lab-cta" aria-label="Contact the lab">
+    <p>Questions about the lab, our data, or collaboration are always welcome.</p>
+    <div class="lab-cta-actions">
+      <a class="lab-button lab-button--primary" href="mailto:pildoosung@hanyang.ac.kr">Email the lab</a>
+      <a class="lab-button" href="https://socio.hanyang.ac.kr/home">Department</a>
+    </div>
+  </aside>
+</div>

@@ -224,6 +224,7 @@ selected_papers: true
 
     <nav class="pildoo-nav" aria-label="Homepage sections">
       <a href="{{ '/research/' | relative_url }}">Research</a>
+      <a href="{{ '/lab/' | relative_url }}">Lab</a>
       <a href="{{ '/publications/' | relative_url }}">Publications</a>
       <a href="{{ '/teaching/' | relative_url }}">Teaching</a>
     </nav>
