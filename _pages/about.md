@@ -187,7 +187,7 @@ selected_papers: true
 
     <h1 id="pildoo-home-title">{{ site.title }}</h1>
     <p class="pildoo-subtitle">
-      Assistant Professor of Sociology ·
+      Associate Professor of Sociology ·
       <a href="https://socio.hanyang.ac.kr/home">Hanyang University</a>
     </p>
 
