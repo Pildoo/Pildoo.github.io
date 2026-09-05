@@ -119,6 +119,14 @@ ul#tabs a {
   border: none;
 }
 
+.navbar-nav > li > .dropdown-menu {
+  margin-top: 0px;
+}
+
+.navbar-nav {
+  margin: 0;
+}
+
 @-webkit-keyframes pulsate {
   0% {
     -webkit-transform: scale(1, 1);
@@ -257,6 +265,14 @@ ul#tabs a {
   background-color: #546745 !important;
   border-color: #546745 !important;
   transition: 200ms ease !important;
+}
+
+
+.btn-sm {
+  font-size: inherit;
+  font-weight: normal;
+  height: inherit;
+  line-height: inherit;
 }
 
 button.close {
@@ -405,6 +421,7 @@ h1,
 h2,
 h3,
 h4,
+h6,
 pre,
 code,
 form,
