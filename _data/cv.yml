@@ -1,6 +1,7 @@
+
 cv:
   name: Pildoo Sung
-  headline: Assistant Professor of Sociology
+  headline: Associate Professor of Sociology
   location: Seoul, South Korea
   email: pildoosung@hanyang.ac.kr
   photo:
@@ -15,7 +16,7 @@ cv:
   sections:
     Academic Position:
       - company: Hanyang University
-        position: Assistant Professor, Department of Sociology
+        position: Associate Professor, Department of Sociology
         location: Seoul, South Korea
         start_date: 2024
         end_date: present
