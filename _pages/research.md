@@ -106,18 +106,13 @@ description: Social networks, health, and well-being across the life course.
       <p>This study examines the association between tooth loss and subsequent loneliness, and whether that association varies with the discussion nominations older adults receive from people other than their spouse. It considers both kin and nonkin ties without assuming that their roles are interchangeable.</p>
     </article>
     <article>
-      <h3>Bereavement and the reorganization of social networks</h3>
-      <p class="research-data">KSHAP</p>
-      <p>How does losing a spouse reshape an older adult's place in a community network? This project follows changes in incoming and outgoing ties around bereavement, distinguishing the loss of the spousal tie from changes in other relationships, and examines their connections with depressive symptoms.</p>
-    </article>
-    <article>
       <h3>Social participation, depressive symptoms, and network change</h3>
       <p class="research-data">KSHAP</p>
       <p>This project studies the co-evolution of discussion networks, social participation, and depressive symptoms. It examines selection into relationships and changes among connected individuals, with attention to network boundaries and the challenges of distinguishing social influence from shared circumstances.</p>
     </article>
     <article>
       <h3>Social capital and life satisfaction across 30 countries</h3>
-      <p class="research-data">Cross-national research</p>
+      <p class="research-data">ISSP</p>
       <p>Comparing social capital embedded in strong and weak ties across 30 countries, this study examines how its association with life satisfaction varies by individual income, national affluence, and income inequality.</p>
     </article>
     <article>
