@@ -1,619 +1,161 @@
 ---
-layout: page
+layout: default
 permalink: /teaching/
 title: teaching
 nav: true
 nav_order: 5
-description: University teaching and methods workshops connecting sociological theory, empirical research, health, aging, and inequality.
+description: University courses and methods workshops connecting sociological theory with empirical inquiry.
 ---
 
 <style>
-  .post-header {
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 2.5rem;
-    padding: clamp(2rem, 6vw, 4rem);
-    border: 1px solid color-mix(in srgb, var(--global-theme-color) 18%, transparent);
-    border-radius: 1.25rem;
-    background:
-      radial-gradient(
-        circle at 92% 8%,
-        color-mix(in srgb, var(--global-theme-color) 15%, transparent) 0,
-        transparent 34%
-      ),
-      linear-gradient(
-        145deg,
-        color-mix(in srgb, var(--global-theme-color) 8%, var(--global-bg-color)),
-        var(--global-bg-color) 72%
-      );
-  }
+.portfolio-page{color-scheme:dark;--background:#15191d;--foreground:#f0f2f4;--muted:#a7afb8;--accent:#92bfeb;--border:#343c44;--card:#1c2228;--primary:#92bfeb;--primary-foreground:#15191d;--ring:#92bfeb;--radius:0rem}
+.portfolio-page *{box-sizing:border-box}.portfolio-page{margin:0;background:var(--background);color:var(--foreground);font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.65}.portfolio-page a{color:inherit;text-decoration:none}.portfolio-page a:hover{color:var(--accent)}.portfolio-page a:focus-visible{outline:2px solid var(--accent);outline-offset:6px}.portfolio-page p,.portfolio-page h1,.portfolio-page h2,.portfolio-page h3{margin:0}.portfolio-page .eyebrow{color:var(--accent);font-size:13px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:20px}.portfolio-page .page-intro{padding:58px 0 46px;display:grid;grid-template-columns:1.2fr 1fr;gap:70px;align-items:end}.portfolio-page h1{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:clamp(38px,4.4vw,58px);line-height:1.09;letter-spacing:-.035em}.portfolio-page h1 span{color:var(--accent)}.portfolio-page .intro-aside{max-width:440px}.portfolio-page .intro-aside p{font-size:17px;line-height:1.65}.portfolio-page .intro-aside .muted{font-size:14px;margin-top:16px}.portfolio-page .muted{color:var(--muted)}.portfolio-page .theme-index{display:grid;grid-template-columns:repeat(3,1fr);border-block:1px solid var(--border);margin-bottom:44px}.portfolio-page .theme-index a{display:flex;gap:16px;align-items:center;padding:22px 22px 22px 0;line-height:1.4;font-size:15px}.portfolio-page .theme-index a+a{padding-left:22px;border-left:1px solid var(--border)}.portfolio-page .theme-index a>span:last-child{margin-left:auto;color:var(--accent)}.portfolio-page .number{color:var(--accent);font-size:13px;letter-spacing:.08em}.portfolio-page .section-caption{display:flex;justify-content:space-between;gap:20px;text-transform:uppercase;font-size:12px;letter-spacing:.12em;color:var(--muted);margin-bottom:36px}.portfolio-page .research-section{display:grid;grid-template-columns:.85fr 1.4fr;gap:100px;padding:0 0 48px;margin-bottom:48px;border-bottom:1px solid var(--border)}.portfolio-page h2{font-family:Georgia,'Times New Roman',serif;font-size:34px;line-height:1.13;font-weight:400;letter-spacing:-.025em;white-space:pre-line}.portfolio-page .theme-description h2{margin:16px 0 24px}.portfolio-page .theme-description .question{font-size:17px;margin-bottom:12px}.portfolio-page .theme-description .muted{font-size:16px;line-height:1.7}.portfolio-page .project{padding:24px 0;border-top:1px solid var(--border)}.portfolio-page .project:first-child{padding-top:0;border:0}.portfolio-page .project:last-child{padding-bottom:0}.portfolio-page .meta{color:var(--accent);font-size:12px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:9px}.portfolio-page h3{font-size:20px;font-weight:400;line-height:1.35;letter-spacing:-.015em}.portfolio-page .project>p:last-child{margin-top:10px;color:var(--muted);font-size:16px;line-height:1.7}.portfolio-page .closing{display:flex;justify-content:space-between;align-items:center;gap:24px;padding-bottom:50px}.portfolio-page .closing p{color:var(--muted);font-size:15px}.portfolio-page .closing a{font-size:20px}.portfolio-page .closing a span{margin-left:24px;color:var(--accent)}
+.portfolio-page .teaching-intro{padding-bottom:42px}.portfolio-page .teaching-intro h1{font-size:clamp(38px,4vw,54px)}.portfolio-page .teaching-block{border-top:1px solid var(--border);padding-top:32px;margin-bottom:52px}.portfolio-page .block-heading{display:flex;justify-content:space-between;gap:25px;align-items:end;margin-bottom:25px}.portfolio-page .block-heading h2{font-size:30px}.portfolio-page .block-heading p{color:var(--muted);font-size:14px}.portfolio-page .course-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 48px}.portfolio-page .course{padding:26px 0;border-bottom:1px solid var(--border)}.portfolio-page .course p:not(.meta){color:var(--muted);font-size:16px;margin-top:12px}.portfolio-page .course-bottom{display:flex;justify-content:space-between;align-items:center;gap:18px;margin-top:22px;font-size:13px;color:var(--muted)}.portfolio-page .course-bottom a{color:var(--accent);font-size:14px}.portfolio-page .workshop{display:grid;grid-template-columns:1fr 1.2fr;gap:48px;padding:24px 0;border-bottom:1px solid var(--border)}.portfolio-page .workshop p{font-size:16px;color:var(--muted)}.portfolio-page .workshop .place{font-size:13px;margin-top:12px}.portfolio-page .history-row{display:grid;grid-template-columns:1fr 1.2fr;gap:48px;padding:24px 0;border-bottom:1px solid var(--border)}.portfolio-page .history-row h3{font-size:18px}.portfolio-page .history-row p,.portfolio-page .history-row li{font-size:14px;color:var(--muted)}.portfolio-page .history-row p{margin-top:5px}.portfolio-page .history-row ul{padding:0;margin:0;list-style:none}.portfolio-page .history-row li+li{margin-top:8px}.portfolio-page .history-row li span{color:var(--foreground)}
+@media(min-width:1440px){}@media(max-width:800px){.portfolio-page .page-intro{grid-template-columns:1fr;gap:24px;padding-top:38px}.portfolio-page .intro-aside{max-width:620px}.portfolio-page .theme-index{grid-template-columns:1fr}.portfolio-page .theme-index a,.portfolio-page .theme-index a+a{padding:16px 0;border-left:0}.portfolio-page .theme-index a+a{border-top:1px solid var(--border)}.portfolio-page .research-section{grid-template-columns:1fr;gap:30px}.portfolio-page .theme-description h2{white-space:normal;font-size:32px}.portfolio-page .theme-description{max-width:580px}.portfolio-page .section-caption span:last-child{display:none}.portfolio-page .course-grid{grid-template-columns:1fr}.portfolio-page .workshop,.portfolio-page .history-row{grid-template-columns:1fr;gap:15px}.portfolio-page .block-heading{align-items:flex-start;flex-direction:column;gap:8px}.portfolio-page .closing{align-items:flex-start;flex-direction:column;gap:10px}.portfolio-page .closing{padding-bottom:32px}}@media(prefers-reduced-motion:reduce){}
 
-  .post-header::before {
-    position: absolute;
-    top: 1.25rem;
-    left: 1.25rem;
-    width: 2.5rem;
-    height: 0.2rem;
-    border-radius: 999px;
-    background: var(--global-theme-color);
-    content: '';
-  }
 
-  .post-header .post-title {
-    max-width: 720px;
-    margin: 0 0 0.85rem;
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: clamp(2.5rem, 7vw, 4.6rem);
-    font-weight: 500;
-    letter-spacing: -0.045em;
-    line-height: 1;
-  }
-
-  .post-header .post-description {
-    max-width: 700px;
-    margin: 0;
-    color: color-mix(in srgb, var(--global-text-color) 74%, transparent);
-    font-size: clamp(1.02rem, 2vw, 1.18rem);
-    line-height: 1.65;
-  }
-
-  .teaching-page {
-    --teaching-muted: color-mix(in srgb, var(--global-text-color) 68%, transparent);
-    --teaching-border: color-mix(in srgb, var(--global-text-color) 13%, transparent);
-    --teaching-soft: color-mix(in srgb, var(--global-theme-color) 6%, var(--global-bg-color));
-    --teaching-card: color-mix(in srgb, var(--global-text-color) 2.5%, var(--global-bg-color));
-  }
-
-  .teaching-intro {
-    display: grid;
-    grid-template-columns: minmax(0, 1.55fr) minmax(220px, 0.75fr);
-    gap: 2rem;
-    align-items: start;
-    margin-bottom: 4rem;
-  }
-
-  .teaching-intro-copy {
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: clamp(1.25rem, 2.6vw, 1.62rem);
-    line-height: 1.55;
-  }
-
-  .teaching-scope {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.45rem;
-    padding-left: 1.25rem;
-    border-left: 1px solid var(--teaching-border);
-  }
-
-  .teaching-scope-title {
-    flex-basis: 100%;
-    margin-bottom: 0.2rem;
-    color: var(--teaching-muted);
-    font-size: 0.72rem;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-  }
-
-  .scope-chip {
-    display: inline-flex;
-    align-items: center;
-    min-height: 1.85rem;
-    padding: 0.25rem 0.65rem;
-    border: 1px solid var(--teaching-border);
-    border-radius: 999px;
-    background: var(--teaching-card);
-    color: var(--teaching-muted);
-    font-size: 0.78rem;
-  }
-
-  .teaching-section {
-    margin-top: 4rem;
-    scroll-margin-top: 6rem;
-  }
-
-  .teaching-section:first-of-type {
-    margin-top: 0;
-  }
-
-  .teaching-section-heading {
-    display: grid;
-    grid-template-columns: 8rem minmax(0, 1fr);
-    gap: 1.5rem;
-    align-items: baseline;
-    margin-bottom: 1.75rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid var(--teaching-border);
-  }
-
-  .teaching-kicker {
-    color: var(--global-theme-color);
-    font-size: 0.72rem;
-    font-weight: 700;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-  }
-
-  .teaching-section-heading h2 {
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: clamp(1.7rem, 4vw, 2.35rem);
-    font-weight: 500;
-    letter-spacing: -0.025em;
-    line-height: 1.15;
-  }
-
-  .institution-block + .institution-block {
-    margin-top: 2.5rem;
-    padding-top: 2.5rem;
-    border-top: 1px solid var(--teaching-border);
-  }
-
-  .institution-header {
-    display: flex;
-    gap: 1rem;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin-bottom: 1rem;
-  }
-
-  .institution-header h3 {
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: 1.3rem;
-    font-weight: 600;
-    line-height: 1.3;
-  }
-
-  .institution-meta {
-    margin: 0.25rem 0 0;
-    color: var(--teaching-muted);
-    font-size: 0.82rem;
-  }
-
-  .institution-years {
-    flex-shrink: 0;
-    padding-top: 0.15rem;
-    color: var(--global-theme-color);
-    font-size: 0.78rem;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-  }
-
-  .course-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.75rem;
-  }
-
-  .course-card {
-    display: flex;
-    gap: 1rem;
-    align-items: flex-start;
-    justify-content: space-between;
-    min-height: 7.15rem;
-    padding: 1.05rem;
-    border: 1px solid var(--teaching-border);
-    border-radius: 0.8rem;
-    background: var(--teaching-card);
-  }
-
-  .course-level {
-    display: block;
-    margin-bottom: 0.45rem;
-    color: var(--global-theme-color);
-    font-size: 0.66rem;
-    font-weight: 600;
-    letter-spacing: 0.09em;
-    text-transform: uppercase;
-  }
-
-  .course-card h4 {
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: 1rem;
-    font-weight: 600;
-    line-height: 1.4;
-  }
-
-  .course-meta {
-    display: block;
-    margin-top: 0.35rem;
-    color: var(--teaching-muted);
-    font-size: 0.76rem;
-    line-height: 1.4;
-  }
-
-  .syllabus-link {
-    display: inline-flex;
-    flex-shrink: 0;
-    align-items: center;
-    min-height: 2rem;
-    margin-top: 0.1rem;
-    padding: 0.3rem 0.6rem;
-    border: 1px solid var(--teaching-border);
-    border-radius: 999px;
-    color: var(--global-theme-color);
-    font-size: 0.72rem;
-    font-weight: 600;
-    text-decoration: none;
-    transition:
-      border-color 160ms ease,
-      background-color 160ms ease,
-      transform 160ms ease;
-  }
-
-  .syllabus-link:hover {
-    border-color: var(--global-theme-color);
-    background: var(--teaching-soft);
-    color: var(--global-theme-color);
-    text-decoration: none;
-    transform: translateY(-1px);
-  }
-
-  .workshop-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
-  }
-
-  .workshop-card {
-    display: flex;
-    min-height: 15rem;
-    padding: clamp(1.25rem, 3vw, 1.6rem);
-    border: 1px solid var(--teaching-border);
-    border-radius: 0.9rem;
-    background:
-      linear-gradient(160deg, var(--teaching-soft), transparent 58%),
-      var(--teaching-card);
-    flex-direction: column;
-  }
-
-  .workshop-number {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 2.15rem;
-    height: 2.15rem;
-    margin-bottom: 1.2rem;
-    border-radius: 50%;
-    background: var(--teaching-soft);
-    color: var(--global-theme-color);
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: 0.84rem;
-  }
-
-  .workshop-card h3 {
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: 1.2rem;
-    font-weight: 600;
-    line-height: 1.35;
-  }
-
-  .workshop-description {
-    margin: 0.7rem 0 1.2rem;
-    color: var(--teaching-muted);
-    font-size: 0.9rem;
-    line-height: 1.65;
-  }
-
-  .workshop-meta {
-    margin: auto 0 0;
-    padding-top: 0.9rem;
-    border-top: 1px solid var(--teaching-border);
-    color: var(--teaching-muted);
-    font-size: 0.78rem;
-    line-height: 1.55;
-  }
-
-  .workshop-meta strong {
-    color: var(--global-text-color);
-    font-weight: 600;
-  }
-
-  .teaching-cta {
-    display: flex;
-    gap: 1.5rem;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 4rem;
-    padding: clamp(1.4rem, 4vw, 2rem);
-    border-radius: 0.9rem;
-    background: var(--teaching-soft);
-  }
-
-  .teaching-cta p {
-    max-width: 560px;
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', serif;
-    font-size: clamp(1.08rem, 2.5vw, 1.3rem);
-    line-height: 1.5;
-  }
-
-  .teaching-actions {
-    display: flex;
-    flex-shrink: 0;
-    gap: 0.55rem;
-  }
-
-  .teaching-button {
-    display: inline-flex;
-    align-items: center;
-    min-height: 2.65rem;
-    padding: 0.55rem 0.9rem;
-    border: 1px solid var(--global-theme-color);
-    border-radius: 999px;
-    color: var(--global-theme-color);
-    font-size: 0.84rem;
-    font-weight: 600;
-    text-decoration: none;
-    transition:
-      background-color 160ms ease,
-      color 160ms ease,
-      transform 160ms ease;
-  }
-
-  .teaching-button:first-child {
-    background: var(--global-theme-color);
-    color: var(--global-bg-color);
-  }
-
-  .teaching-button:hover {
-    background: var(--global-theme-color);
-    color: var(--global-bg-color);
-    text-decoration: none;
-    transform: translateY(-1px);
-  }
-
-  @media (max-width: 760px) {
-    .teaching-intro,
-    .teaching-section-heading {
-      grid-template-columns: 1fr;
-      gap: 0.75rem;
-    }
-
-    .teaching-scope {
-      padding: 1rem 0 0;
-      border-top: 1px solid var(--teaching-border);
-      border-left: 0;
-    }
-
-    .course-grid,
-    .workshop-grid {
-      grid-template-columns: 1fr;
-    }
-
-    .teaching-cta {
-      align-items: flex-start;
-      flex-direction: column;
-    }
-  }
-
-  @media (max-width: 560px) {
-    .post-header {
-      border-radius: 0.9rem;
-    }
-
-    .teaching-intro {
-      margin-bottom: 3rem;
-    }
-
-    .institution-header,
-    .course-card {
-      flex-direction: column;
-    }
-
-    .course-card {
-      min-height: 0;
-    }
-
-    .teaching-actions {
-      flex-wrap: wrap;
-    }
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .syllabus-link,
-    .teaching-button {
-      transition: none;
-    }
-  }
+body:has(.portfolio-page){--global-bg-color:#15191d;--global-text-color:#f0f2f4;--global-theme-color:#92bfeb;background:#15191d;}
+.container:has(>.portfolio-page){width:calc(100% - 96px);max-width:1120px;padding:0;margin-top:0!important;}
+.portfolio-page{width:100%;margin:auto;}
+.portfolio-page a:hover{text-decoration:none;}
+.portfolio-page section{scroll-margin-top:90px;}
+@media(min-width:1440px){.container:has(>.portfolio-page){width:calc(100% - 120px);max-width:1200px;}}
+@media(max-width:800px){.container:has(>.portfolio-page){width:calc(100% - 48px);}}
 </style>
 
-<div class="teaching-page">
-  <div class="teaching-intro">
-    <p class="teaching-intro-copy">
-      I teach courses that connect sociological theory and empirical research with questions about health, aging, social relationships, and
-      inequality. Across university courses and methods workshops, I emphasize how to turn broad social questions into testable claims and
-      evidence-based arguments.
-    </p>
-    <div class="teaching-scope" aria-label="Teaching scope">
-      <span class="teaching-scope-title">Teaching scope</span>
-      <span class="scope-chip">Undergraduate</span>
-      <span class="scope-chip">Graduate</span>
-      <span class="scope-chip">Methods workshops</span>
-    </div>
-  </div>
-
-  <section class="teaching-section" aria-labelledby="university-teaching-title">
-    <div class="teaching-section-heading">
-      <span class="teaching-kicker">Course history</span>
-      <h2 id="university-teaching-title">University teaching</h2>
-    </div>
-
-    <article class="institution-block">
-      <header class="institution-header">
-        <div>
-          <h3>Hanyang University</h3>
-          <p class="institution-meta">Instructor · Seoul, South Korea</p>
-        </div>
-        <span class="institution-years">2024–2026</span>
-      </header>
-      <div class="course-grid">
-        <article class="course-card">
-          <div>
-            <span class="course-level">Undergraduate · 2025–2026</span>
-            <h4>Health and Social Behavior</h4>
-            <span class="course-meta">SOC4046</span>
-          </div>
-          <a class="syllabus-link" href="{{ '/assets/pdf/teaching/Health_and_Social_Behavior_2026.pdf' | relative_url }}">Syllabus</a>
-        </article>
-
-        <article class="course-card">
-          <div>
-            <span class="course-level">Undergraduate · 2025–2026</span>
-            <h4>Social Problems</h4>
-            <span class="course-meta">SOC3032</span>
-          </div>
-          <a class="syllabus-link" href="{{ '/assets/pdf/teaching/Analysis_of_Social_Problems_2025.pdf' | relative_url }}">Syllabus</a>
-        </article>
-
-        <article class="course-card">
-          <div>
-            <span class="course-level">Graduate · 2025–2026</span>
-            <h4>Medical Sociology Seminar</h4>
-            <span class="course-meta">SOC9116</span>
-          </div>
-        </article>
-
-        <article class="course-card">
-          <div>
-            <span class="course-level">Graduate · 2025–2026</span>
-            <h4>Social Networks and Social Capital</h4>
-            <span class="course-meta">SOC9115</span>
-          </div>
-        </article>
-
-        <article class="course-card">
-          <div>
-            <span class="course-level">Undergraduate · 2024</span>
-            <h4>Sociology and the New Industrial Revolution</h4>
-            <span class="course-meta">SOC1055</span>
-          </div>
-        </article>
-
-        <article class="course-card">
-          <div>
-            <span class="course-level">Graduate · 2024</span>
-            <h4>Intermediate Social Statistics</h4>
-            <span class="course-meta">SOC9109</span>
-          </div>
-        </article>
-      </div>
-    </article>
-
-    <article class="institution-block">
-      <header class="institution-header">
-        <div>
-          <h3>Hong Kong Baptist University</h3>
-          <p class="institution-meta">Instructor · Hong Kong</p>
-        </div>
-        <span class="institution-years">2023–2024</span>
-      </header>
-      <div class="course-grid">
-        <article class="course-card">
-          <div>
-            <span class="course-level">Undergraduate · 2023–2024</span>
-            <h4>Careers and Life Courses</h4>
-            <span class="course-meta">SOCI3027</span>
-          </div>
-        </article>
-
-        <article class="course-card">
-          <div>
-            <span class="course-level">Undergraduate · 2023–2024</span>
-            <h4>Globalization</h4>
-            <span class="course-meta">SOCI4016</span>
-          </div>
-        </article>
-      </div>
-    </article>
-
-    <article class="institution-block">
-      <header class="institution-header">
-        <div>
-          <h3>National University of Singapore</h3>
-          <p class="institution-meta">Teaching Assistant · Singapore</p>
-        </div>
-        <span class="institution-years">2015–2018</span>
-      </header>
-      <div class="course-grid">
-        <article class="course-card">
-          <div>
-            <span class="course-level">Undergraduate · 2018</span>
-            <h4>Data Analysis in Social Research</h4>
-            <span class="course-meta">SC3209</span>
-          </div>
-        </article>
-
-        <article class="course-card">
-          <div>
-            <span class="course-level">Undergraduate · 2017</span>
-            <h4>Sociology of Life Course and Ageing</h4>
-            <span class="course-meta">SC3214</span>
-          </div>
-        </article>
-
-        <article class="course-card">
-          <div>
-            <span class="course-level">Undergraduate · 2016</span>
-            <h4>Understanding Globalization</h4>
-            <span class="course-meta">GEK1041</span>
-          </div>
-        </article>
-
-        <article class="course-card">
-          <div>
-            <span class="course-level">Undergraduate · 2015</span>
-            <h4>Making Sense of Society</h4>
-            <span class="course-meta">SC1101</span>
-          </div>
-        </article>
-      </div>
-    </article>
-  </section>
-
-  <section class="teaching-section" aria-labelledby="methods-workshops-title">
-    <div class="teaching-section-heading">
-      <span class="teaching-kicker">Applied training</span>
-      <h2 id="methods-workshops-title">Methods workshops</h2>
-    </div>
-
-    <div class="workshop-grid">
-      <article class="workshop-card">
-        <span class="workshop-number" aria-hidden="true">01</span>
-        <h3>Latent Class and Latent Transition Analysis</h3>
-        <p class="workshop-description">
-          Applied instruction in identifying unobserved population subgroups and tracing movement between them over time.
-        </p>
-        <p class="workshop-meta">
-          <strong>Centre for Ageing Research and Education, Duke-NUS Medical School</strong><br>
-          2021–2023 · Invited sessions for the APRU Population Aging Program and Korea University, 2022
-        </p>
-      </article>
-
-      <article class="workshop-card">
-        <span class="workshop-number" aria-hidden="true">02</span>
-        <h3>Multi-wave Panel Data Analysis</h3>
-        <p class="workshop-description">
-          Practical approaches to repeated-observation data, with attention to change over time and the interpretation of longitudinal associations.
-        </p>
-        <p class="workshop-meta">
-          <strong>Department of Internal Medicine, The Catholic University of Korea</strong><br>
-          2023
-        </p>
-      </article>
-    </div>
-  </section>
-
-  <aside class="teaching-cta" aria-label="Teaching materials and inquiries">
-    <p>For course materials, methods training, or invited workshop inquiries, please get in touch.</p>
-    <div class="teaching-actions">
-      <a class="teaching-button" href="{{ site.data.socials.cv_pdf | relative_url }}">View CV</a>
-      <a class="teaching-button" href="mailto:pildoosung@hanyang.ac.kr">Get in touch</a>
-    </div>
-  </aside>
+<div class="portfolio-page">
+<header class="page-intro teaching-intro">
+<div>
+<p class="eyebrow">Teaching</p>
+<h1>From social questions<br/>to <span>empirical inquiry.</span>
+</h1>
+</div>
+<div class="intro-aside">
+<p>My teaching connects sociological theory with research on health, aging, social relationships, and inequality.</p>
+<p class="muted">Across courses and workshops, I emphasize turning broad questions into testable claims and evidence-based arguments.</p>
+</div>
+</header>
+<section class="teaching-block" aria-labelledby="courses-title">
+<div class="block-heading">
+<h2 id="courses-title">Selected courses</h2>
+<p>Hanyang University · 2025–2026</p>
+</div>
+<div class="course-grid">
+<article class="course">
+<p class="meta">Undergraduate</p>
+<h3>Health and Social Behavior</h3>
+<p>Explore health and health-related behavior through a sociological lens, connecting social relationships and inequality with empirical research.</p>
+<div class="course-bottom">
+<span>SOC4046 · 2025–2026</span>
+<a href="https://pildoo.github.io/assets/pdf/teaching/Health_and_Social_Behavior_2026.pdf" target="_blank" rel="noreferrer">Syllabus <span aria-hidden="true">↗</span>
+</a>
+</div>
+</article>
+<article class="course">
+<p class="meta">Undergraduate</p>
+<h3>Social Problems</h3>
+<p>Use sociological perspectives and evidence to examine social problems and develop arguments about their causes and consequences.</p>
+<div class="course-bottom">
+<span>SOC3032 · 2025–2026</span>
+<a href="https://pildoo.github.io/assets/pdf/teaching/Analysis_of_Social_Problems_2025.pdf" target="_blank" rel="noreferrer">Syllabus <span aria-hidden="true">↗</span>
+</a>
+</div>
+</article>
+<article class="course">
+<p class="meta">Graduate</p>
+<h3>Medical Sociology Seminar</h3>
+<p>Engage with sociological questions about health and illness through critical reading and discussion of theory and empirical research.</p>
+<div class="course-bottom">
+<span>SOC9116 · 2025–2026</span>
+</div>
+</article>
+<article class="course">
+<p class="meta">Graduate</p>
+<h3>Social Networks and Social Capital</h3>
+<p>Examine how social relationships are structured, what resources they provide, and how network perspectives inform sociological research.</p>
+<div class="course-bottom">
+<span>SOC9115 · 2025–2026</span>
+</div>
+</article>
+</div>
+</section>
+<section class="teaching-block" aria-labelledby="workshops-title">
+<div class="block-heading">
+<h2 id="workshops-title">Methods workshops</h2>
+<p>Applied training for researchers</p>
+</div>
+<article class="workshop">
+<div>
+<p class="meta">2021–2023</p>
+<h3>Latent Class and<br/>Latent Transition Analysis</h3>
+</div>
+<div>
+<p>Identify unobserved population subgroups and trace movement between them over time.</p>
+<p class="place">Centre for Ageing Research and Education, Duke-NUS Medical School<br/>Invited sessions: APRU Population Aging Program and Korea University, 2022</p>
+</div>
+</article>
+<article class="workshop">
+<div>
+<p class="meta">2023</p>
+<h3>Multi-wave Panel Data Analysis</h3>
+</div>
+<div>
+<p>Work with repeated-observation data, focusing on change over time and the interpretation of longitudinal associations.</p>
+<p class="place">Department of Internal Medicine, The Catholic University of Korea</p>
+</div>
+</article>
+</section>
+<section class="teaching-block" aria-labelledby="history-title">
+<div class="block-heading">
+<h2 id="history-title">Earlier teaching</h2>
+<p>Courses and teaching roles</p>
+</div>
+<div class="history-row">
+<div>
+<h3>Hanyang University</h3>
+<p>Instructor · 2024</p>
+</div>
+<ul>
+<li>
+<span>Sociology and the New Industrial Revolution</span>
+<br/>Undergraduate · SOC1055</li>
+<li>
+<span>Intermediate Social Statistics</span>
+<br/>Graduate · SOC9109</li>
+</ul>
+</div>
+<div class="history-row">
+<div>
+<h3>Hong Kong Baptist University</h3>
+<p>Instructor · 2023–2024</p>
+</div>
+<ul>
+<li>
+<span>Careers and Life Courses</span> · SOCI3027</li>
+<li>
+<span>Globalization</span> · SOCI4016</li>
+</ul>
+</div>
+<div class="history-row">
+<div>
+<h3>National University of Singapore</h3>
+<p>Teaching Assistant · 2015–2018</p>
+</div>
+<ul>
+<li>
+<span>Data Analysis in Social Research</span> · 2018</li>
+<li>
+<span>Sociology of Life Course and Ageing</span> · 2017</li>
+<li>
+<span>Understanding Globalization</span> · 2016</li>
+<li>
+<span>Making Sense of Society</span> · 2015</li>
+</ul>
+</div>
+</section>
+<div class="closing">
+<p>For course materials or methods workshop inquiries</p>
+<a href="mailto:pildoosung@hanyang.ac.kr">Get in touch <span aria-hidden="true">↗</span>
+</a>
+</div>
 </div>

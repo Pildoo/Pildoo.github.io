@@ -1,186 +1,137 @@
 ---
-layout: page
+layout: default
 permalink: /research/
 title: research
 nav: true
 nav_order: 2
-description: Social networks, health, and well-being across the life course.
+description: Social connections, health, and family across the life course.
 ---
 
 <style>
-  .research-page {
-    --research-border: color-mix(in srgb, var(--global-text-color) 16%, transparent);
-    --research-muted: color-mix(in srgb, var(--global-text-color) 80%, var(--global-bg-color));
-    line-height: 1.65;
-  }
-  .research-page .research-nav {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.6rem 1.5rem;
-    margin: 1.25rem 0 2.5rem;
-  }
-  .research-page section {
-    margin-top: 2.5rem;
-    scroll-margin-top: 6rem;
-  }
-  .research-page h2 {
-    padding-bottom: 0.65rem;
-    border-bottom: 1px solid var(--research-border);
-    font-size: 1.65rem;
-  }
-  .research-page h3 {
-    margin: 0 0 0.45rem;
-    font-size: 1.15rem;
-    line-height: 1.4;
-  }
-  .research-page article {
-    margin-top: 1.5rem;
-  }
-  .research-page .research-data {
-    margin: 0 0 0.5rem;
-    color: var(--research-muted);
-    font-size: 0.95rem;
-  }
-  .research-page .research-grid {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0 2.5rem;
-  }
-  .research-page ul {
-    padding-left: 1.15rem;
-  }
-  .research-page li + li {
-    margin-top: 0.8rem;
-  }
-  .research-page .publication-meta {
-    display: block;
-    color: var(--research-muted);
-    font-size: 0.95rem;
-  }
-  .research-page .publication-link {
-    margin-top: 1.5rem;
-  }
-  @media (max-width: 640px) {
-    .research-page .research-grid {
-      grid-template-columns: 1fr;
-    }
-  }
+.portfolio-page{color-scheme:dark;--background:#15191d;--foreground:#f0f2f4;--muted:#a7afb8;--accent:#92bfeb;--border:#343c44;--card:#1c2228;--primary:#92bfeb;--primary-foreground:#15191d;--ring:#92bfeb;--radius:0rem}
+.portfolio-page *{box-sizing:border-box}.portfolio-page{margin:0;background:var(--background);color:var(--foreground);font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.65}.portfolio-page a{color:inherit;text-decoration:none}.portfolio-page a:hover{color:var(--accent)}.portfolio-page a:focus-visible{outline:2px solid var(--accent);outline-offset:6px}.portfolio-page p,.portfolio-page h1,.portfolio-page h2,.portfolio-page h3{margin:0}.portfolio-page .eyebrow{color:var(--accent);font-size:13px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:20px}.portfolio-page .page-intro{padding:58px 0 46px;display:grid;grid-template-columns:1.2fr 1fr;gap:70px;align-items:end}.portfolio-page h1{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:clamp(38px,4.4vw,58px);line-height:1.09;letter-spacing:-.035em}.portfolio-page h1 span{color:var(--accent)}.portfolio-page .intro-aside{max-width:440px}.portfolio-page .intro-aside p{font-size:17px;line-height:1.65}.portfolio-page .intro-aside .muted{font-size:14px;margin-top:16px}.portfolio-page .muted{color:var(--muted)}.portfolio-page .theme-index{display:grid;grid-template-columns:repeat(3,1fr);border-block:1px solid var(--border);margin-bottom:44px}.portfolio-page .theme-index a{display:flex;gap:16px;align-items:center;padding:22px 22px 22px 0;line-height:1.4;font-size:15px}.portfolio-page .theme-index a+a{padding-left:22px;border-left:1px solid var(--border)}.portfolio-page .theme-index a>span:last-child{margin-left:auto;color:var(--accent)}.portfolio-page .number{color:var(--accent);font-size:13px;letter-spacing:.08em}.portfolio-page .section-caption{display:flex;justify-content:space-between;gap:20px;text-transform:uppercase;font-size:12px;letter-spacing:.12em;color:var(--muted);margin-bottom:36px}.portfolio-page .research-section{display:grid;grid-template-columns:.85fr 1.4fr;gap:100px;padding:0 0 48px;margin-bottom:48px;border-bottom:1px solid var(--border)}.portfolio-page h2{font-family:Georgia,'Times New Roman',serif;font-size:34px;line-height:1.13;font-weight:400;letter-spacing:-.025em;white-space:pre-line}.portfolio-page .theme-description h2{margin:16px 0 24px}.portfolio-page .theme-description .question{font-size:17px;margin-bottom:12px}.portfolio-page .theme-description .muted{font-size:16px;line-height:1.7}.portfolio-page .project{padding:24px 0;border-top:1px solid var(--border)}.portfolio-page .project:first-child{padding-top:0;border:0}.portfolio-page .project:last-child{padding-bottom:0}.portfolio-page .meta{color:var(--accent);font-size:12px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:9px}.portfolio-page h3{font-size:20px;font-weight:400;line-height:1.35;letter-spacing:-.015em}.portfolio-page .project>p:last-child{margin-top:10px;color:var(--muted);font-size:16px;line-height:1.7}.portfolio-page .closing{display:flex;justify-content:space-between;align-items:center;gap:24px;padding-bottom:50px}.portfolio-page .closing p{color:var(--muted);font-size:15px}.portfolio-page .closing a{font-size:20px}.portfolio-page .closing a span{margin-left:24px;color:var(--accent)}
+.portfolio-page .teaching-intro{padding-bottom:42px}.portfolio-page .teaching-intro h1{font-size:clamp(38px,4vw,54px)}.portfolio-page .teaching-block{border-top:1px solid var(--border);padding-top:32px;margin-bottom:52px}.portfolio-page .block-heading{display:flex;justify-content:space-between;gap:25px;align-items:end;margin-bottom:25px}.portfolio-page .block-heading h2{font-size:30px}.portfolio-page .block-heading p{color:var(--muted);font-size:14px}.portfolio-page .course-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 48px}.portfolio-page .course{padding:26px 0;border-bottom:1px solid var(--border)}.portfolio-page .course p:not(.meta){color:var(--muted);font-size:16px;margin-top:12px}.portfolio-page .course-bottom{display:flex;justify-content:space-between;align-items:center;gap:18px;margin-top:22px;font-size:13px;color:var(--muted)}.portfolio-page .course-bottom a{color:var(--accent);font-size:14px}.portfolio-page .workshop{display:grid;grid-template-columns:1fr 1.2fr;gap:48px;padding:24px 0;border-bottom:1px solid var(--border)}.portfolio-page .workshop p{font-size:16px;color:var(--muted)}.portfolio-page .workshop .place{font-size:13px;margin-top:12px}.portfolio-page .history-row{display:grid;grid-template-columns:1fr 1.2fr;gap:48px;padding:24px 0;border-bottom:1px solid var(--border)}.portfolio-page .history-row h3{font-size:18px}.portfolio-page .history-row p,.portfolio-page .history-row li{font-size:14px;color:var(--muted)}.portfolio-page .history-row p{margin-top:5px}.portfolio-page .history-row ul{padding:0;margin:0;list-style:none}.portfolio-page .history-row li+li{margin-top:8px}.portfolio-page .history-row li span{color:var(--foreground)}
+@media(min-width:1440px){}@media(max-width:800px){.portfolio-page .page-intro{grid-template-columns:1fr;gap:24px;padding-top:38px}.portfolio-page .intro-aside{max-width:620px}.portfolio-page .theme-index{grid-template-columns:1fr}.portfolio-page .theme-index a,.portfolio-page .theme-index a+a{padding:16px 0;border-left:0}.portfolio-page .theme-index a+a{border-top:1px solid var(--border)}.portfolio-page .research-section{grid-template-columns:1fr;gap:30px}.portfolio-page .theme-description h2{white-space:normal;font-size:32px}.portfolio-page .theme-description{max-width:580px}.portfolio-page .section-caption span:last-child{display:none}.portfolio-page .course-grid{grid-template-columns:1fr}.portfolio-page .workshop,.portfolio-page .history-row{grid-template-columns:1fr;gap:15px}.portfolio-page .block-heading{align-items:flex-start;flex-direction:column;gap:8px}.portfolio-page .closing{align-items:flex-start;flex-direction:column;gap:10px}.portfolio-page .closing{padding-bottom:32px}}@media(prefers-reduced-motion:reduce){}
+
+
+body:has(.portfolio-page){--global-bg-color:#15191d;--global-text-color:#f0f2f4;--global-theme-color:#92bfeb;background:#15191d;}
+.container:has(>.portfolio-page){width:calc(100% - 96px);max-width:1120px;padding:0;margin-top:0!important;}
+.portfolio-page{width:100%;margin:auto;}
+.portfolio-page a:hover{text-decoration:none;}
+.portfolio-page section{scroll-margin-top:90px;}
+@media(min-width:1440px){.container:has(>.portfolio-page){width:calc(100% - 120px);max-width:1200px;}}
+@media(max-width:800px){.container:has(>.portfolio-page){width:calc(100% - 48px);}}
 </style>
 
-<div class="research-page">
-  <p>I study how social relationships shape health and well-being, and how aging and life transitions reshape those relationships.</p>
-  <nav class="research-nav" aria-label="Research page sections">
-    <a href="#ongoing-research">Ongoing Research</a>
-    <a href="#published-research">Published research</a>
-  </nav>
-
-  <section id="ongoing-research" aria-labelledby="ongoing-research-title">
-    <h2 id="ongoing-research-title">Ongoing Research</h2>
-    <p>
-      My ongoing work examines social connections, family relationships, and health across the life course. I draw on a range of longitudinal studies, multinational surveys, and sociocentric network datasets.
-    </p>
-    <article>
-      <h3>Intergenerational support and well-being in the sandwich generation</h3>
-      <p class="research-data">KLoEE</p>
-      <p>How do middle-aged and older adults combine relationships with parents and adult children? This project examines configurations of contact, coresidence, and financial support across the two generations, and how these configurations relate to subsequent depressive symptoms and self-esteem.</p>
-    </article>
-    <article>
-      <h3>Oral health, received ties, and cognitive aging</h3>
-      <p class="research-data">KSHAP</p>
-      <p>How is tooth loss related to being named as a discussion partner and to later cognitive function? Using two waves of KSHAP, this study examines received nominations (in-degree) as a potential pathway linking remaining teeth to later MMSE scores, alongside self-reported ties (out-degree).</p>
-    </article>
-    <article>
-      <h3>Trajectories of social connectedness in later life</h3>
-      <p class="research-data">KSHAP</p>
-      <p>This project examines how longitudinal network classifications change when self-reported discussion ties are supplemented with information about ties outside the township and nominations received from others. Cognitive function provides an external criterion for comparing the resulting patterns of connectedness.</p>
-    </article>
-    <article>
-      <h3>Reciprocal ties, loneliness, and well-being</h3>
-      <p class="research-data">KSHAP</p>
-      <p>Does naming someone as a discussion partner have the same meaning when that person also names you? This study distinguishes reciprocal, outgoing-only, and incoming-only nominations to examine how different forms of connection relate to loneliness and well-being across community contexts.</p>
-    </article>
-    <article>
-      <h3>Tooth loss, social connections, and loneliness</h3>
-      <p class="research-data">KSHAP</p>
-      <p>This study examines the association between tooth loss and subsequent loneliness, and whether that association varies with the discussion nominations older adults receive from people other than their spouse. It considers both kin and nonkin ties without assuming that their roles are interchangeable.</p>
-    </article>
-    <article>
-      <h3>Social participation, depressive symptoms, and network change</h3>
-      <p class="research-data">KSHAP</p>
-      <p>This project studies the co-evolution of discussion networks, social participation, and depressive symptoms. It examines selection into relationships and changes among connected individuals, with attention to network boundaries and the challenges of distinguishing social influence from shared circumstances.</p>
-    </article>
-    <article>
-      <h3>Social capital and life satisfaction across 30 countries</h3>
-      <p class="research-data">ISSP</p>
-      <p>Comparing social capital embedded in strong and weak ties across 30 countries, this study examines how its association with life satisfaction varies by individual income, national affluence, and income inequality.</p>
-    </article>
-    <article>
-      <h3>Social network transitions and depressive symptoms around COVID-19</h3>
-      <p class="research-data">KLoSA</p>
-      <p>Using three waves of the Korean Longitudinal Study of Ageing (2018–2022), this study tracks changes in network types before and during the pandemic and examines their association with later depressive symptoms.</p>
-    </article>
-  </section>
-
-  <section id="published-research" aria-labelledby="published-research-title">
-    <h2 id="published-research-title">Published research</h2>
-    <div class="research-grid">
-      <article>
-        <h3>Social networks and isolation</h3>
-        <p>How network profiles change over time, following widowhood, and alongside loneliness.</p>
-        <ul>
-          <li>
-            <a href="https://doi.org/10.1016/j.socnet.2025.12.005">Getting Lonely and Isolated?</a>
-            <span class="publication-meta">Social Networks · 2026</span>
-          </li>
-          <li>
-            <a href="https://doi.org/10.1002/psp.70231">Social Network Profiles After Widowhood</a>
-            <span class="publication-meta">Population, Space and Place · 2026</span>
-          </li>
-        </ul>
-      </article>
-      <article>
-        <h3>Social engagement and health</h3>
-        <p>Connections between social participation, oral health, and mental and cognitive health.</p>
-        <ul>
-          <li>
-            <a href="https://doi.org/10.1177/00220345261438375">Oral Health-Related Quality of Life and Social Engagement</a>
-            <span class="publication-meta">Journal of Dental Research · 2026</span>
-          </li>
-          <li>
-            <a href="https://doi.org/10.1002/gps.70085">Oral Health, Social Engagement, and Depressive Symptoms</a>
-            <span class="publication-meta">International Journal of Geriatric Psychiatry · 2025</span>
-          </li>
-        </ul>
-      </article>
-      <article>
-        <h3>Family caregiving</h3>
-        <p>Loneliness, shared care, and the well-being of older adults and their family caregivers.</p>
-        <ul>
-          <li>
-            <a href="https://doi.org/10.1111/ggi.70499">Loneliness in Family Caregiver–Care Recipient Dyads</a>
-            <span class="publication-meta">Geriatrics &amp; Gerontology International · 2026</span>
-          </li>
-          <li>
-            <a href="https://doi.org/10.1093/geronb/gbae186">Sharing in Caring</a>
-            <span class="publication-meta">The Journals of Gerontology, Series B · 2025</span>
-          </li>
-        </ul>
-      </article>
-      <article>
-        <h3>Trust and social capital</h3>
-        <p>Cross-national differences in trust, network resources, and well-being.</p>
-        <ul>
-          <li>
-            <a href="https://doi.org/10.1177/13591053261469755">Lonely by Comparison</a>
-            <span class="publication-meta">Journal of Health Psychology · 2026</span>
-          </li>
-          <li>
-            <a href="https://doi.org/10.1177/02685809241251770">Generalized Trust, Social Networks, and Social Resources Across 30 Countries</a>
-            <span class="publication-meta">International Sociology · 2024</span>
-          </li>
-        </ul>
-      </article>
-    </div>
-    <p class="publication-link"><a href="{{ '/publications/' | relative_url }}">View all publications and full citation details →</a></p>
-  </section>
+<div class="portfolio-page">
+<header class="page-intro">
+<div>
+<p class="eyebrow">Research</p>
+<h1>Relationships.<br/>Health. <span>Social context.</span>
+</h1>
+</div>
+<div class="intro-aside">
+<p>I study how social relationships shape health and well-being, and how aging and life transitions reshape those relationships.</p>
+<p class="muted">Drawing on longitudinal studies, multinational surveys, and sociocentric network data.</p>
+</div>
+</header>
+<nav class="theme-index" aria-label="Research themes">
+<a href="#connections">
+<span class="number">01</span>
+<span>Social connections and inequality</span>
+<span aria-hidden="true">↘</span>
+</a>
+<a href="#health">
+<span class="number">02</span>
+<span>Health and aging</span>
+<span aria-hidden="true">↘</span>
+</a>
+<a href="#family">
+<span class="number">03</span>
+<span>Family and the life course</span>
+<span aria-hidden="true">↘</span>
+</a>
+</nav>
+<div class="section-caption">
+<span>Ongoing research</span>
+<span>Three connected areas of inquiry</span>
+</div>
+<section class="research-section" id="connections" aria-labelledby="connections-title">
+<div class="theme-description">
+<span class="number">01 /</span>
+<h2 id="connections-title">Social connections
+and inequality</h2>
+<p class="question">What makes a social connection meaningful?</p>
+<p class="muted">I examine how the structure and reciprocity of social relationships relate to well-being, and how these relationships differ across social and national contexts.</p>
+</div>
+<div class="project-list">
+<article class="project">
+<p class="meta">KSHAP</p>
+<h3>Reciprocal ties, loneliness, and well-being</h3>
+<p>Distinguishing mutual, outgoing-only, and incoming-only nominations to understand how different forms of connection relate to loneliness and well-being.</p>
+</article>
+<article class="project">
+<p class="meta">ISSP · 30 countries</p>
+<h3>Social capital and life satisfaction</h3>
+<p>Examining how the association between network resources and life satisfaction varies with individual income, national affluence, and inequality.</p>
+</article>
+<article class="project">
+<p class="meta">KSHAP</p>
+<h3>Social participation and network change</h3>
+<p>Studying the co-evolution of discussion networks, social participation, and depressive symptoms, with attention to selection, influence, and shared circumstances.</p>
+</article>
+</div>
+</section>
+<section class="research-section" id="health" aria-labelledby="health-title">
+<div class="theme-description">
+<span class="number">02 /</span>
+<h2 id="health-title">Health
+and aging</h2>
+<p class="question">How are social relationships and health intertwined?</p>
+<p class="muted">My work connects oral health, social connectedness, and mental and cognitive health in later life, using longitudinal data and multiple perspectives on social ties.</p>
+</div>
+<div class="project-list">
+<article class="project">
+<p class="meta">KSHAP</p>
+<h3>Oral health, received ties, and cognitive aging</h3>
+<p>Examining received discussion nominations as a potential pathway between tooth loss and later cognitive function, alongside self-reported ties.</p>
+</article>
+<article class="project">
+<p class="meta">KSHAP</p>
+<h3>Trajectories of social connectedness</h3>
+<p>Tracing how outgoing ties, their geographic reach, and incoming nominations contribute to longitudinal network patterns, with cognition as an external criterion.</p>
+</article>
+<article class="project">
+<p class="meta">KSHAP</p>
+<h3>Tooth loss, social connections, and loneliness</h3>
+<p>Examining whether the association between tooth loss and subsequent loneliness varies with nominations received from people other than a spouse.</p>
+</article>
+</div>
+</section>
+<section class="research-section" id="family" aria-labelledby="family-title">
+<div class="theme-description">
+<span class="number">03 /</span>
+<h2 id="family-title">Family
+and the life course</h2>
+<p class="question">How do relationships change as lives unfold?</p>
+<p class="muted">I study family connections and changing social networks through midlife and later life, including intergenerational support and periods of wider social disruption.</p>
+</div>
+<div class="project-list">
+<article class="project">
+<p class="meta">KLoEE</p>
+<h3>Intergenerational support in the sandwich generation</h3>
+<p>Examining configurations of contact, coresidence, and financial support to parents and adult children, and their links to subsequent depressive symptoms and self-esteem.</p>
+</article>
+<article class="project">
+<p class="meta">KLoSA · 2018–2022</p>
+<h3>Social network transitions around COVID-19</h3>
+<p>Following changes in network types before and during the pandemic and examining their association with later depressive symptoms.</p>
+</article>
+</div>
+</section>
+<div class="closing">
+<p>For published work and full citations</p>
+<a href="https://pildoo.github.io/publications/">View publications <span>↗</span>
+</a>
+</div>
 </div>
