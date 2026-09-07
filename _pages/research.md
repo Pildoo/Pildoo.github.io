@@ -77,8 +77,7 @@ description: Social networks, health, and well-being across the life course.
   <section id="ongoing-research" aria-labelledby="ongoing-research-title">
     <h2 id="ongoing-research-title">Ongoing Research</h2>
     <p>
-      My ongoing work examines social connections, family relationships, and health across the life course. Several projects use sociocentric network
-      data from the Korean Social Life, Health, and Aging Project (KSHAP), distinguishing the ties older adults report from the nominations they receive from others.
+      My ongoing work examines social connections, family relationships, and health across the life course. I draw on a range of longitudinal studies, multinational surveys, and sociocentric network datasets.
     </p>
     <article>
       <h3>Intergenerational support and well-being in the sandwich generation</h3>
