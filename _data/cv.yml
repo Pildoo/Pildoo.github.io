@@ -18,8 +18,14 @@ cv:
       - company: Hanyang University
         position: Associate Professor, Department of Sociology
         location: Seoul, South Korea
-        start_date: 2024
+        start_date: 2026
         end_date: present
+
+      - company: Hanyang University
+        position: Assistant Professor, Department of Sociology
+        location: Seoul, South Korea
+        start_date: 2024
+        end_date: 2026
 
       - company: Hong Kong Baptist University
         position: Assistant Professor, Department of Sociology
@@ -73,7 +79,8 @@ cv:
           - H. Kim
         journal: Journal of Health Psychology
         date: 2026
-        summary: Accepted
+        summary: Online first
+        doi: 10.1177/13591053261469755
 
       - title: "Exploring Loneliness in Family Caregiver–Care Recipient Dyads: Implications for Caregiver Burden"
         authors:
@@ -102,7 +109,8 @@ cv:
           - R. Malhotra
         journal: Journal of Aging and Social Policy
         date: 2026
-        summary: Accepted
+        summary: Online first
+        doi: 10.1080/08959420.2026.2729020
 
       - title: Stability and Changes in Social Network Profiles After Widowhood and Their Implications for Depressive Symptoms Among Older Adults in South Korea
         authors:
@@ -755,10 +763,23 @@ cv:
         start_date: 2023
         end_date: 2024
 
+      - company: Hanyang University
+        position: Member, Institutional Review Board
+        start_date: 2026
+        end_date: present
+
       - company: Hong Kong Baptist University
         position: Grant Reviewer, Seed Grant Funding Scheme
         start_date: 2023
         end_date: 2023
+
+      - company: XXI ISA World Congress of Sociology
+        position: Session Organizer
+        start_date: 2026
+        end_date: 2027
+        highlights:
+          - "RC06 Family Research (co-organizer): Beyond Decline: Reconfiguring Family Support and the Social Wellbeing of Older Adults in Ageing Societies"
+          - "RC55 Social Indicators: Modeling Change and Heterogeneity: Longitudinal and Person-Centered Methods for Social Indicators, Quality of Life, and Well-Being"
 
       - company: 19th Seoul International Symposium on Gerontology
         position: Organizing Committee Member
