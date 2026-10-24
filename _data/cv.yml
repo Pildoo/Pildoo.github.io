@@ -63,6 +63,14 @@ cv:
         details: Social Capital, Social Participation, Social Isolation, Loneliness, Social Gerontology, Caregiving, Longitudinal Analysis
 
     Publications:
+      - title: "Strong-Tie Social Capital and Life Satisfaction Across 30 Countries: The Moderating Roles of Individual Income, National Affluence, and Income Inequality"
+        authors:
+          - "*Pildoo Sung*"
+          - J. Son
+        journal: Social Indicators Research
+        date: 2026
+        summary: In press
+
       - title: Associating Multimorbidity Patterns with Healthcare Utilization and Unmet Healthcare Needs among Older Koreans Living Alone
         authors:
           - H. Yun
@@ -404,9 +412,6 @@ cv:
 
     Work in Progress:
       - name: Stability and Transitions in Social Network Types in the Pandemic Outbreak and Their Association with Mid-pandemic Depression among Older Koreans
-        summary: "Sung, P., & Son, J. — Status: Under review."
-
-      - name: "Strong-Tie Social Capital and Life Satisfaction Across 30 Countries: The Moderating Roles of Individual Income, National Affluence, and Income Inequality"
         summary: "Sung, P., & Son, J. — Status: Under review."
 
       - name: "Later-life Work Transitions and Trajectories of Depressive Symptoms: The Positive Role of Returning to Work"
