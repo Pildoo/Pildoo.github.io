@@ -53,11 +53,11 @@ body:has(.portfolio-page){--global-bg-color:#15191d;--global-text-color:#f0f2f4;
 </article>
 <article class="course">
 <p class="meta">Undergraduate</p>
-<h3>Social Problems</h3>
-<p>Use sociological perspectives and evidence to examine social problems and develop arguments about their causes and consequences.</p>
+<h3>Social Problems: AI and Data Society</h3>
+<p>Examine contemporary social problems through sociological theories and the AI and data-driven technologies that increasingly shape them, from algorithmic bias to automation and health inequality.</p>
 <div class="course-bottom">
 <span>SOC3032 · 2025–2026</span>
-<a href="https://pildoo.github.io/assets/pdf/teaching/Analysis_of_Social_Problems_2025.pdf" target="_blank" rel="noreferrer">Syllabus <span aria-hidden="true">↗</span>
+<a href="https://pildoo.github.io/assets/pdf/teaching/Analysis_of_Social_Problems_2026.pdf" target="_blank" rel="noreferrer">Syllabus <span aria-hidden="true">↗</span>
 </a>
 </div>
 </article>
