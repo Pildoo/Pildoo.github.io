@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 nav: true
 nav_order: 5
-description: University courses and methods workshops connecting sociological theory with empirical inquiry.
+description: University courses connecting sociological theory with empirical inquiry.
 ---
 
 <style>
@@ -32,7 +32,7 @@ body:has(.portfolio-page){--global-bg-color:#15191d;--global-text-color:#f0f2f4;
 </div>
 <div class="intro-aside">
 <p>My teaching connects sociological theory with research on health, aging, social relationships, and inequality.</p>
-<p class="muted">Across courses and workshops, I emphasize turning broad questions into testable claims and evidence-based arguments.</p>
+<p class="muted">Across courses, I emphasize turning broad questions into testable claims and evidence-based arguments.</p>
 </div>
 </header>
 <section class="teaching-block" aria-labelledby="courses-title">
@@ -79,82 +79,8 @@ body:has(.portfolio-page){--global-bg-color:#15191d;--global-text-color:#f0f2f4;
 </article>
 </div>
 </section>
-<section class="teaching-block" aria-labelledby="workshops-title">
-<div class="block-heading">
-<h2 id="workshops-title">Methods workshops</h2>
-<p>Applied training for researchers</p>
-</div>
-<article class="workshop">
-<div>
-<p class="meta">2021–2023</p>
-<h3>Latent Class and<br/>Latent Transition Analysis</h3>
-</div>
-<div>
-<p>Identify unobserved population subgroups and trace movement between them over time.</p>
-<p class="place">Centre for Ageing Research and Education, Duke-NUS Medical School<br/>Invited sessions: APRU Population Aging Program and Korea University, 2022</p>
-</div>
-</article>
-<article class="workshop">
-<div>
-<p class="meta">2023</p>
-<h3>Multi-wave Panel Data Analysis</h3>
-</div>
-<div>
-<p>Work with repeated-observation data, focusing on change over time and the interpretation of longitudinal associations.</p>
-<p class="place">Department of Internal Medicine, The Catholic University of Korea</p>
-</div>
-</article>
-</section>
-<section class="teaching-block" aria-labelledby="history-title">
-<div class="block-heading">
-<h2 id="history-title">Earlier teaching</h2>
-<p>Courses and teaching roles</p>
-</div>
-<div class="history-row">
-<div>
-<h3>Hanyang University</h3>
-<p>Instructor · 2024</p>
-</div>
-<ul>
-<li>
-<span>Sociology and the New Industrial Revolution</span>
-<br/>Undergraduate · SOC1055</li>
-<li>
-<span>Intermediate Social Statistics</span>
-<br/>Graduate · SOC9109</li>
-</ul>
-</div>
-<div class="history-row">
-<div>
-<h3>Hong Kong Baptist University</h3>
-<p>Instructor · 2023–2024</p>
-</div>
-<ul>
-<li>
-<span>Careers and Life Courses</span> · SOCI3027</li>
-<li>
-<span>Globalization</span> · SOCI4016</li>
-</ul>
-</div>
-<div class="history-row">
-<div>
-<h3>National University of Singapore</h3>
-<p>Teaching Assistant · 2015–2018</p>
-</div>
-<ul>
-<li>
-<span>Data Analysis in Social Research</span> · 2018</li>
-<li>
-<span>Sociology of Life Course and Ageing</span> · 2017</li>
-<li>
-<span>Understanding Globalization</span> · 2016</li>
-<li>
-<span>Making Sense of Society</span> · 2015</li>
-</ul>
-</div>
-</section>
 <div class="closing">
-<p>For course materials or methods workshop inquiries</p>
+<p>For course materials</p>
 <a href="mailto:pildoosung@hanyang.ac.kr">Get in touch <span aria-hidden="true">↗</span>
 </a>
 </div>
