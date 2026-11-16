@@ -66,7 +66,7 @@ and inequality</h2>
 <div class="project-list">
 <article class="project">
 <p>My published work examines changing patterns of social isolation, trust, and access to network resources. Building on this work, I study how reciprocity and social context shape the connections people form and the support they can draw on.</p>
-<p><a href="https://doi.org/10.1016/j.socnet.2025.12.005">Social isolation profiles</a> · <a href="https://doi.org/10.1177/02685809241251770">Trust and network resources</a></p>
+<p><a href="https://doi.org/10.1016/j.socnet.2025.12.005">Social isolation profiles</a> · <a href="https://doi.org/10.1177/02685809241251770">Trust and network resources</a> · <a href="https://doi.org/10.1007/s11205-026-03961-2">Social capital and life satisfaction</a></p>
 </article>
 </div>
 </section>
